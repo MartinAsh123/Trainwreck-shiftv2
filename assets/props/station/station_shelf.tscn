@@ -1,0 +1,17 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/station_shelf/station_shelf.glb" id="1_va0l0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2toca"]
+size = Vector3(0.71999997, 0.21561305, 0.33027858)
+
+[node name="StationShelf" type="Node3D" unique_id=730472142]
+
+[node name="Model" type="Node3D" parent="." unique_id=1740249324 instance=ExtResource("1_va0l0")]
+transform = Transform3D(-0.7203516, 0, -6.297513e-08, 0, 0.7203516, 0, 6.297513e-08, 0, -0.7203516, 0, -0.21561305, 0)
+
+[node name="Collision" type="StaticBody3D" parent="." unique_id=518777488]
+
+[node name="Shape" type="CollisionShape3D" parent="Collision" unique_id=1211667241]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.107806526, 0)
+shape = SubResource("BoxShape3D_2toca")

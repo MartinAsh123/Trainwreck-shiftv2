@@ -1,0 +1,2171 @@
+[gd_scene format=4]
+
+[ext_resource type="PackedScene" path="res://TripoModels/gauge_panel/gauge_panel.glb" id="1_7ob1e"]
+[ext_resource type="Shader" path="res://shaders/props/gauge_dial.gdshader" id="2_fd0su"]
+[ext_resource type="FontFile" path="res://assets/fonts/Oswald.ttf" id="3_kcx4t"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4k2ca"]
+render_priority = 0
+shader = ExtResource("2_fd0su")
+shader_parameter/face_color = null
+shader_parameter/ink = null
+shader_parameter/start_deg = null
+shader_parameter/sweep_deg = null
+shader_parameter/major_count = 6
+shader_parameter/minor_per_major = 5
+shader_parameter/red_band = Vector2(0, 0.4)
+shader_parameter/green_band = Vector2(0.6333333, 0.76666665)
+
+[sub_resource type="QuadMesh" id="QuadMesh_ir3my"]
+size = Vector2(0.156, 0.156)
+
+[sub_resource type="FontVariation" id="FontVariation_vd4dy"]
+base_font = ExtResource("3_kcx4t")
+variation_opentype = {
+2003265652: 500
+}
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sdhqa"]
+albedo_color = Color(0.03, 0.03, 0.03, 1)
+metallic = 0.4
+roughness = 0.3
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_dbimn"]
+_surfaces = [{
+"aabb": AABB(-0.0039, -0.01872, 0, 0.0078, 0.0858, 1e-05),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 15,
+"vertex_data": PackedByteArray("6nhMu69aGbwAAAAAJJd/O69ambwAAAAAJJd/u69ambwAAAAAaOvgOiSXfzsAAAAAaOvguiSXfzsAAAAAAAAAAD1hiT0AAAAAaOvguiSXfzsAAAAAJJd/O69ambwAAAAA6nhMu69aGbwAAAAA6nhMO69aGbwAAAAAaOvguiSXfzsAAAAAaOvgOiSXfzsAAAAAaOvguiSXfzsAAAAA6nhMO69aGbwAAAAAJJd/O69ambwAAAAA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA")
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1mcax"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_oxosd"]
+top_radius = 0.00585
+bottom_radius = 0.00585
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_krlbj"]
+transparency = 1
+albedo_color = Color(0.9, 0.95, 1, 0.07)
+metallic_specular = 0.9
+roughness = 0.03
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_uqywv"]
+top_radius = 0.07956
+bottom_radius = 0.07956
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p2oim"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_0akw4"]
+size = Vector3(0.10235961, 0.0273, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vehle"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_w0mvj"]
+size = Vector3(0.09710961, 0.02205, 0.0025)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4xj28"]
+render_priority = 0
+shader = ExtResource("2_fd0su")
+shader_parameter/face_color = null
+shader_parameter/ink = null
+shader_parameter/start_deg = null
+shader_parameter/sweep_deg = null
+shader_parameter/major_count = 5
+shader_parameter/minor_per_major = 4
+shader_parameter/red_band = Vector2(0.8, 1)
+shader_parameter/green_band = null
+
+[sub_resource type="QuadMesh" id="QuadMesh_jcmno"]
+size = Vector2(0.123, 0.123)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gi7aj"]
+albedo_color = Color(0.03, 0.03, 0.03, 1)
+metallic = 0.4
+roughness = 0.3
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_m8h15"]
+_surfaces = [{
+"aabb": AABB(-0.003075, -0.01476, 0, 0.00615, 0.06765, 1e-05),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 15,
+"vertex_data": PackedByteArray("9Dchu+3T8bsAAAAA8IVJO+3TcbwAAAAA8IVJu+3TcbwAAAAAJlexOvCFSTsAAAAAJlexuvCFSTsAAAAAAAAAAC+jWD0AAAAAJlexuvCFSTsAAAAA8IVJO+3TcbwAAAAA9Dchu+3T8bsAAAAA9DchO+3T8bsAAAAAJlexuvCFSTsAAAAAJlexOvCFSTsAAAAAJlexuvCFSTsAAAAA9DchO+3T8bsAAAAA8IVJO+3TcbwAAAAA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA")
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_soox5"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_5ly6w"]
+top_radius = 0.0046125
+bottom_radius = 0.0046125
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x17rf"]
+transparency = 1
+albedo_color = Color(0.9, 0.95, 1, 0.07)
+metallic_specular = 0.9
+roughness = 0.03
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_x5k88"]
+top_radius = 0.06273
+bottom_radius = 0.06273
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rsp1x"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_77n3t"]
+size = Vector3(0.13125001, 0.03825, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8mm2h"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_rft74"]
+size = Vector3(0.126, 0.033, 0.0025)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_iy7ka"]
+render_priority = 0
+shader = ExtResource("2_fd0su")
+shader_parameter/face_color = null
+shader_parameter/ink = null
+shader_parameter/start_deg = null
+shader_parameter/sweep_deg = null
+shader_parameter/major_count = 6
+shader_parameter/minor_per_major = 5
+shader_parameter/red_band = Vector2(0, 0.6666667)
+shader_parameter/green_band = Vector2(0.76666665, 0.9)
+
+[sub_resource type="QuadMesh" id="QuadMesh_iqlml"]
+size = Vector2(0.123, 0.123)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sijom"]
+albedo_color = Color(0.03, 0.03, 0.03, 1)
+metallic = 0.4
+roughness = 0.3
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_maeju"]
+_surfaces = [{
+"aabb": AABB(-0.003075, -0.01476, 0, 0.00615, 0.06765, 1e-05),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 15,
+"vertex_data": PackedByteArray("9Dchu+3T8bsAAAAA8IVJO+3TcbwAAAAA8IVJu+3TcbwAAAAAJlexOvCFSTsAAAAAJlexuvCFSTsAAAAAAAAAAC+jWD0AAAAAJlexuvCFSTsAAAAA8IVJO+3TcbwAAAAA9Dchu+3T8bsAAAAA9DchO+3T8bsAAAAAJlexuvCFSTsAAAAAJlexOvCFSTsAAAAAJlexuvCFSTsAAAAA9DchO+3T8bsAAAAA8IVJO+3TcbwAAAAA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA")
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4wold"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_j2efq"]
+top_radius = 0.0046125
+bottom_radius = 0.0046125
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dux2h"]
+transparency = 1
+albedo_color = Color(0.9, 0.95, 1, 0.07)
+metallic_specular = 0.9
+roughness = 0.03
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_pl7so"]
+top_radius = 0.06273
+bottom_radius = 0.06273
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ye6wn"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_fysq2"]
+size = Vector3(0.13125001, 0.03825, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sbq01"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_xqbje"]
+size = Vector3(0.126, 0.033, 0.0025)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_h5yr8"]
+render_priority = 0
+shader = ExtResource("2_fd0su")
+shader_parameter/face_color = null
+shader_parameter/ink = null
+shader_parameter/start_deg = null
+shader_parameter/sweep_deg = null
+shader_parameter/major_count = 4
+shader_parameter/minor_per_major = 4
+shader_parameter/red_band = Vector2(0, 0.25)
+shader_parameter/green_band = null
+
+[sub_resource type="QuadMesh" id="QuadMesh_kbv10"]
+size = Vector2(0.123, 0.123)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i4qsk"]
+albedo_color = Color(0.03, 0.03, 0.03, 1)
+metallic = 0.4
+roughness = 0.3
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_afgc4"]
+_surfaces = [{
+"aabb": AABB(-0.003075, -0.01476, 0, 0.00615, 0.06765, 1e-05),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 15,
+"vertex_data": PackedByteArray("9Dchu+3T8bsAAAAA8IVJO+3TcbwAAAAA8IVJu+3TcbwAAAAAJlexOvCFSTsAAAAAJlexuvCFSTsAAAAAAAAAAC+jWD0AAAAAJlexuvCFSTsAAAAA8IVJO+3TcbwAAAAA9Dchu+3T8bsAAAAA9DchO+3T8bsAAAAAJlexuvCFSTsAAAAAJlexOvCFSTsAAAAAJlexuvCFSTsAAAAA9DchO+3T8bsAAAAA8IVJO+3TcbwAAAAA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA")
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ytgo8"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_6pnoi"]
+top_radius = 0.0046125
+bottom_radius = 0.0046125
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8bvy4"]
+transparency = 1
+albedo_color = Color(0.9, 0.95, 1, 0.07)
+metallic_specular = 0.9
+roughness = 0.03
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_sg04h"]
+top_radius = 0.06273
+bottom_radius = 0.06273
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8y3p6"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_anefx"]
+size = Vector3(0.12725, 0.03425, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sppdo"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_0a4ob"]
+size = Vector3(0.122, 0.029, 0.0025)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sk4cw"]
+render_priority = 0
+shader = ExtResource("2_fd0su")
+shader_parameter/face_color = null
+shader_parameter/ink = null
+shader_parameter/start_deg = null
+shader_parameter/sweep_deg = null
+shader_parameter/major_count = 4
+shader_parameter/minor_per_major = 4
+shader_parameter/red_band = null
+shader_parameter/green_band = Vector2(0.375, 0.5625)
+
+[sub_resource type="QuadMesh" id="QuadMesh_0ue7x"]
+size = Vector2(0.123, 0.123)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cel1l"]
+albedo_color = Color(0.03, 0.03, 0.03, 1)
+metallic = 0.4
+roughness = 0.3
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_24w34"]
+_surfaces = [{
+"aabb": AABB(-0.003075, -0.01476, 0, 0.00615, 0.06765, 1e-05),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 15,
+"vertex_data": PackedByteArray("9Dchu+3T8bsAAAAA8IVJO+3TcbwAAAAA8IVJu+3TcbwAAAAAJlexOvCFSTsAAAAAJlexuvCFSTsAAAAAAAAAAC+jWD0AAAAAJlexuvCFSTsAAAAA8IVJO+3TcbwAAAAA9Dchu+3T8bsAAAAA9DchO+3T8bsAAAAAJlexuvCFSTsAAAAAJlexOvCFSTsAAAAAJlexuvCFSTsAAAAA9DchO+3T8bsAAAAA8IVJO+3TcbwAAAAA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA")
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vui65"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rk6di"]
+top_radius = 0.0046125
+bottom_radius = 0.0046125
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u2m0o"]
+transparency = 1
+albedo_color = Color(0.9, 0.95, 1, 0.07)
+metallic_specular = 0.9
+roughness = 0.03
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_8yiux"]
+top_radius = 0.06273
+bottom_radius = 0.06273
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tsf2o"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_68umb"]
+size = Vector3(0.12725, 0.03425, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j0jdb"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_pxo0g"]
+size = Vector3(0.122, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5d8n3"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_fmpod"]
+size = Vector3(0.0966, 0.0336, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jpn8n"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_634c8"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_17aoq"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_1vk1q"]
+size = Vector3(0.0966, 0.0336, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_66ypn"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_6kxua"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_onkrq"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_omwxp"]
+size = Vector3(0.0966, 0.0336, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0bt7i"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_8wvp5"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_74vok"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_5pn4b"]
+size = Vector3(0.0966, 0.0336, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_74hrb"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_nasdn"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_45d4c"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_nh1rq"]
+size = Vector3(0.0966, 0.0336, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eykox"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_gwcft"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jf54w"]
+albedo_color = Color(0.3, 1, 0.35, 1)
+emission_enabled = true
+emission = Color(0.3, 1, 0.35, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_cyahh"]
+top_radius = 0.0125
+bottom_radius = 0.0125
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ipdav"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_gacuo"]
+size = Vector3(0.0966, 0.0336, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bqppb"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_2q8o8"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ppg7w"]
+albedo_color = Color(0.3, 1, 0.35, 1)
+emission_enabled = true
+emission = Color(0.3, 1, 0.35, 1)
+emission_energy_multiplier = 2.5
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_jwuuj"]
+top_radius = 0.0125
+bottom_radius = 0.0125
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i88ed"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_30wme"]
+size = Vector3(0.0961, 0.033099998, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hd5m3"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_8pf8p"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n2gkd"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_28meu"]
+size = Vector3(0.0961, 0.033099998, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c1sjp"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_oi083"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6poha"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_28e4w"]
+size = Vector3(0.0961, 0.033099998, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2kmil"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_am755"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hus0l"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_kqa5m"]
+size = Vector3(0.0961, 0.033099998, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y7cxa"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_u1den"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dcogl"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_088yl"]
+size = Vector3(0.0961, 0.033099998, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ilw3y"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_hriil"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rawio"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_gchys"]
+size = Vector3(0.0961, 0.033099998, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ofx1x"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_d47pm"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lb5pk"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_5d402"]
+size = Vector3(0.0961, 0.033099998, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k6gi3"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_k7y65"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xg25i"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_mc5wt"]
+size = Vector3(0.0961, 0.033099998, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j3bxv"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_wl54u"]
+size = Vector3(0.092, 0.029, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nb1f4"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_4ydm1"]
+size = Vector3(0.2932595, 0.0273, 0.0015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ejgxo"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_vnmp7"]
+size = Vector3(0.2880095, 0.02205, 0.0025)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gu6s5"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="SphereMesh" id="SphereMesh_hp5i0"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a2yv8"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_fmb3w"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[sub_resource type="SphereMesh" id="SphereMesh_fe1l0"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m0w6x"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_k314r"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[sub_resource type="SphereMesh" id="SphereMesh_563qj"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_05qx6"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_idb1n"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[sub_resource type="SphereMesh" id="SphereMesh_c2hpd"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6ntee"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_3gku5"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[sub_resource type="SphereMesh" id="SphereMesh_gm8f3"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ededt"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_68aqq"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[sub_resource type="SphereMesh" id="SphereMesh_2mhqn"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bn20k"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_mgej8"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[sub_resource type="SphereMesh" id="SphereMesh_2gai8"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k1p7r"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_2y5tc"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[sub_resource type="SphereMesh" id="SphereMesh_sddun"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2k6i1"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_a216m"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[sub_resource type="SphereMesh" id="SphereMesh_n1n44"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1phmk"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_pxxti"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[sub_resource type="SphereMesh" id="SphereMesh_csipp"]
+radius = 0.0075
+height = 0.00525
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y1squ"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5le81"]
+size = Vector3(0.012, 0.00165, 0.00375)
+
+[node name="GaugePanel" type="Node3D" unique_id=2056865911]
+
+[node name="Face" type="Node3D" parent="." unique_id=1871140133]
+transform = Transform3D(-0.55, 0, -4.8082526e-08, 0, 0.55, 0, 4.8082526e-08, 0, -0.55, 4.56784e-10, -0.234575, 0.005225)
+
+[node name="Model" type="Node3D" parent="Face" unique_id=105595532 instance=ExtResource("1_7ob1e")]
+
+[node name="BRAKEVACUUM" type="Node3D" parent="Face" unique_id=1692156358]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0015, 0.6628, 0.0875)
+
+[node name="Dial" type="MeshInstance3D" parent="Face/BRAKEVACUUM" unique_id=1596475861]
+material_override = SubResource("ShaderMaterial_4k2ca")
+mesh = SubResource("QuadMesh_ir3my")
+
+[node name="Label3D" type="Label3D" parent="Face/BRAKEVACUUM" unique_id=1699622377]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.033092596, -0.033092596, 0.0006)
+pixel_size = 9.780093e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "0"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D2" type="Label3D" parent="Face/BRAKEVACUUM" unique_id=2039800054]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0468, 2.8655788e-18, 0.0006)
+pixel_size = 9.780093e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "5"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D3" type="Label3D" parent="Face/BRAKEVACUUM" unique_id=2027682015]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.033092596, 0.033092596, 0.0006)
+pixel_size = 9.780093e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "10"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D4" type="Label3D" parent="Face/BRAKEVACUUM" unique_id=272455573]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0468, 0.0006)
+pixel_size = 9.780093e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "15"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D5" type="Label3D" parent="Face/BRAKEVACUUM" unique_id=681700961]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.033092596, 0.033092596, 0.0006)
+pixel_size = 9.780093e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "20"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D6" type="Label3D" parent="Face/BRAKEVACUUM" unique_id=457065837]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0468, 2.8655788e-18, 0.0006)
+pixel_size = 9.780093e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "25"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D7" type="Label3D" parent="Face/BRAKEVACUUM" unique_id=247179246]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.033092596, -0.033092596, 0.0006)
+pixel_size = 9.780093e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "30"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D8" type="Label3D" parent="Face/BRAKEVACUUM" unique_id=1331820734]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.03276, 0.0006)
+pixel_size = 5.642361e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "INS. OF MERCURY"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D9" type="Label3D" parent="Face/BRAKEVACUUM" unique_id=1521713279]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02964, 0.0006)
+pixel_size = 4.5138888e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.35, 0.3, 0.25, 1)
+text = "G.C.R."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Needle" type="MeshInstance3D" parent="Face/BRAKEVACUUM" unique_id=1711648965]
+transform = Transform3D(0.58778524, 0.809017, 0, -0.809017, 0.58778524, 0, 0, 0, 1, 0, 0, 0.0022)
+material_override = SubResource("StandardMaterial3D_sdhqa")
+mesh = SubResource("ArrayMesh_dbimn")
+
+[node name="Hub" type="MeshInstance3D" parent="Face/BRAKEVACUUM" unique_id=1392141904]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0035)
+material_override = SubResource("StandardMaterial3D_1mcax")
+mesh = SubResource("CylinderMesh_oxosd")
+
+[node name="Glass" type="MeshInstance3D" parent="Face/BRAKEVACUUM" unique_id=1727813747]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0135)
+material_override = SubResource("StandardMaterial3D_krlbj")
+cast_shadow = 0
+mesh = SubResource("CylinderMesh_uqywv")
+
+[node name="Plate" type="Node3D" parent="Face" unique_id=1101848754]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0015, 0.7805, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate" unique_id=1539456632]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_p2oim")
+mesh = SubResource("BoxMesh_0akw4")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate" unique_id=677241802]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_vehle")
+mesh = SubResource("BoxMesh_w0mvj")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate" unique_id=102220394]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 0.000101273145
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "BRAKE VACUUM"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="STEAMHEAT" type="Node3D" parent="Face" unique_id=2095004976]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3066, 0.6482, 0.0875)
+
+[node name="Dial" type="MeshInstance3D" parent="Face/STEAMHEAT" unique_id=1558484990]
+material_override = SubResource("ShaderMaterial_4xj28")
+mesh = SubResource("QuadMesh_jcmno")
+
+[node name="Label3D" type="Label3D" parent="Face/STEAMHEAT" unique_id=1314185548]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.02609224, -0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "0"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D2" type="Label3D" parent="Face/STEAMHEAT" unique_id=1794016185]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0364457, 0.005772432, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "20"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D3" type="Label3D" parent="Face/STEAMHEAT" unique_id=315074917]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.016752249, 0.03287814, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "40"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D4" type="Label3D" parent="Face/STEAMHEAT" unique_id=1407734129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016752249, 0.03287814, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "60"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D5" type="Label3D" parent="Face/STEAMHEAT" unique_id=1048765040]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0364457, 0.005772432, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "80"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D6" type="Label3D" parent="Face/STEAMHEAT" unique_id=1123729703]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.02609224, -0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "100"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D7" type="Label3D" parent="Face/STEAMHEAT" unique_id=334716479]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.02583, 0.0006)
+pixel_size = 4.4487846e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "LBS. PER SQ. IN."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D8" type="Label3D" parent="Face/STEAMHEAT" unique_id=481172156]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02337, 0.0006)
+pixel_size = 3.5590278e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.35, 0.3, 0.25, 1)
+text = "G.C.R."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Needle" type="MeshInstance3D" parent="Face/STEAMHEAT" unique_id=977475693]
+transform = Transform3D(0.9723699, 0.23344538, 0, -0.23344538, 0.9723699, 0, 0, 0, 1, 0, 0, 0.0022)
+material_override = SubResource("StandardMaterial3D_gi7aj")
+mesh = SubResource("ArrayMesh_m8h15")
+
+[node name="Hub" type="MeshInstance3D" parent="Face/STEAMHEAT" unique_id=1894602100]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0035)
+material_override = SubResource("StandardMaterial3D_soox5")
+mesh = SubResource("CylinderMesh_5ly6w")
+
+[node name="Glass" type="MeshInstance3D" parent="Face/STEAMHEAT" unique_id=1845270069]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0135)
+material_override = SubResource("StandardMaterial3D_x17rf")
+cast_shadow = 0
+mesh = SubResource("CylinderMesh_x5k88")
+
+[node name="Plate2" type="Node3D" parent="Face" unique_id=1509217129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3105, 0.7606, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate2" unique_id=381663952]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_rsp1x")
+mesh = SubResource("BoxMesh_77n3t")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate2" unique_id=1455617515]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_8mm2h")
+mesh = SubResource("BoxMesh_rft74")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate2" unique_id=1430958244]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 0.000101273145
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "STEAM HEAT"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="BATTERY" type="Node3D" parent="Face" unique_id=590044046]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3084, 0.6474, 0.0875)
+
+[node name="Dial" type="MeshInstance3D" parent="Face/BATTERY" unique_id=1880378861]
+material_override = SubResource("ShaderMaterial_iy7ka")
+mesh = SubResource("QuadMesh_iqlml")
+
+[node name="Label3D" type="Label3D" parent="Face/BATTERY" unique_id=298171490]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.02609224, -0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "0"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D2" type="Label3D" parent="Face/BATTERY" unique_id=2134844813]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0369, 2.2593988e-18, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "5"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D3" type="Label3D" parent="Face/BATTERY" unique_id=388316038]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.02609224, 0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "10"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D4" type="Label3D" parent="Face/BATTERY" unique_id=942218437]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0369, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "15"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D5" type="Label3D" parent="Face/BATTERY" unique_id=2121462920]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.02609224, 0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "20"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D6" type="Label3D" parent="Face/BATTERY" unique_id=1204569477]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0369, 2.2593988e-18, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "25"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D7" type="Label3D" parent="Face/BATTERY" unique_id=834329084]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.02609224, -0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "30"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D8" type="Label3D" parent="Face/BATTERY" unique_id=930493575]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.02583, 0.0006)
+pixel_size = 4.4487846e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "VOLTS"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D9" type="Label3D" parent="Face/BATTERY" unique_id=1764698205]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02337, 0.0006)
+pixel_size = 3.5590278e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.35, 0.3, 0.25, 1)
+text = "G.C.R."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Needle" type="MeshInstance3D" parent="Face/BATTERY" unique_id=668636727]
+transform = Transform3D(0.078459084, 0.9969173, 0, -0.9969173, 0.078459084, 0, 0, 0, 1, 0, 0, 0.0022)
+material_override = SubResource("StandardMaterial3D_sijom")
+mesh = SubResource("ArrayMesh_maeju")
+
+[node name="Hub" type="MeshInstance3D" parent="Face/BATTERY" unique_id=362103290]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0035)
+material_override = SubResource("StandardMaterial3D_4wold")
+mesh = SubResource("CylinderMesh_j2efq")
+
+[node name="Glass" type="MeshInstance3D" parent="Face/BATTERY" unique_id=2043246934]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0135)
+material_override = SubResource("StandardMaterial3D_dux2h")
+cast_shadow = 0
+mesh = SubResource("CylinderMesh_pl7so")
+
+[node name="Plate3" type="Node3D" parent="Face" unique_id=2068822466]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.309, 0.7606, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate3" unique_id=714656164]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_ye6wn")
+mesh = SubResource("BoxMesh_fysq2")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate3" unique_id=1812415371]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_sbq01")
+mesh = SubResource("BoxMesh_xqbje")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate3" unique_id=2081779344]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 0.000101273145
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "BATTERY"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="DYNAMOCHARGE" type="Node3D" parent="Face" unique_id=2080067615]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1574, 0.4746, 0.0875)
+
+[node name="Dial" type="MeshInstance3D" parent="Face/DYNAMOCHARGE" unique_id=2100869276]
+material_override = SubResource("ShaderMaterial_h5yr8")
+mesh = SubResource("QuadMesh_kbv10")
+
+[node name="Label3D" type="Label3D" parent="Face/DYNAMOCHARGE" unique_id=1942610112]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.02609224, -0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "-20"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D2" type="Label3D" parent="Face/DYNAMOCHARGE" unique_id=1402029018]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.034091156, 0.014121018, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "0"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D3" type="Label3D" parent="Face/DYNAMOCHARGE" unique_id=1884497723]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0369, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "20"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D4" type="Label3D" parent="Face/DYNAMOCHARGE" unique_id=912510333]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.034091156, 0.014121018, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "40"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D5" type="Label3D" parent="Face/DYNAMOCHARGE" unique_id=585641051]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.02609224, -0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "60"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D6" type="Label3D" parent="Face/DYNAMOCHARGE" unique_id=318437973]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.02583, 0.0006)
+pixel_size = 4.4487846e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "AMPERES"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D7" type="Label3D" parent="Face/DYNAMOCHARGE" unique_id=1800908815]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02337, 0.0006)
+pixel_size = 3.5590278e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.35, 0.3, 0.25, 1)
+text = "G.C.R."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Needle" type="MeshInstance3D" parent="Face/DYNAMOCHARGE" unique_id=1068101290]
+transform = Transform3D(0.99306846, -0.1175374, 0, 0.1175374, 0.99306846, 0, 0, 0, 1, 0, 0, 0.0022)
+material_override = SubResource("StandardMaterial3D_i4qsk")
+mesh = SubResource("ArrayMesh_afgc4")
+
+[node name="Hub" type="MeshInstance3D" parent="Face/DYNAMOCHARGE" unique_id=1848761168]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0035)
+material_override = SubResource("StandardMaterial3D_ytgo8")
+mesh = SubResource("CylinderMesh_6pnoi")
+
+[node name="Glass" type="MeshInstance3D" parent="Face/DYNAMOCHARGE" unique_id=651137707]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0135)
+material_override = SubResource("StandardMaterial3D_8bvy4")
+cast_shadow = 0
+mesh = SubResource("CylinderMesh_sg04h")
+
+[node name="Plate4" type="Node3D" parent="Face" unique_id=598416556]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.158, 0.581, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate4" unique_id=1085657505]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_8y3p6")
+mesh = SubResource("BoxMesh_anefx")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate4" unique_id=1446355126]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_sppdo")
+mesh = SubResource("BoxMesh_0a4ob")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate4" unique_id=10421622]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 0.000101273145
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "DYNAMO CHARGE"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="SALOONTEMP" type="Node3D" parent="Face" unique_id=1362090984]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1596, 0.4738, 0.0875)
+
+[node name="Dial" type="MeshInstance3D" parent="Face/SALOONTEMP" unique_id=2091350079]
+material_override = SubResource("ShaderMaterial_sk4cw")
+mesh = SubResource("QuadMesh_0ue7x")
+
+[node name="Label3D" type="Label3D" parent="Face/SALOONTEMP" unique_id=743301887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.02609224, -0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "30"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D2" type="Label3D" parent="Face/SALOONTEMP" unique_id=1606280900]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.034091156, 0.014121018, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "50"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D3" type="Label3D" parent="Face/SALOONTEMP" unique_id=1376577507]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0369, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "70"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D4" type="Label3D" parent="Face/SALOONTEMP" unique_id=734098203]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.034091156, 0.014121018, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "90"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D5" type="Label3D" parent="Face/SALOONTEMP" unique_id=301519081]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.02609224, -0.02609224, 0.0006)
+pixel_size = 7.7112265e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "110"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D6" type="Label3D" parent="Face/SALOONTEMP" unique_id=151459760]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.02583, 0.0006)
+pixel_size = 4.4487846e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.06, 0.05, 0.045, 1)
+text = "DEG. FAHR."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D7" type="Label3D" parent="Face/SALOONTEMP" unique_id=1749352089]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02337, 0.0006)
+pixel_size = 3.5590278e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.35, 0.3, 0.25, 1)
+text = "G.C.R."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Needle" type="MeshInstance3D" parent="Face/SALOONTEMP" unique_id=2062043292]
+transform = Transform3D(0.9723699, -0.23344538, 0, 0.23344538, 0.9723699, 0, 0, 0, 1, 0, 0, 0.0022)
+material_override = SubResource("StandardMaterial3D_cel1l")
+mesh = SubResource("ArrayMesh_24w34")
+
+[node name="Hub" type="MeshInstance3D" parent="Face/SALOONTEMP" unique_id=1826337067]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0035)
+material_override = SubResource("StandardMaterial3D_vui65")
+mesh = SubResource("CylinderMesh_rk6di")
+
+[node name="Glass" type="MeshInstance3D" parent="Face/SALOONTEMP" unique_id=1744398484]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0135)
+material_override = SubResource("StandardMaterial3D_u2m0o")
+cast_shadow = 0
+mesh = SubResource("CylinderMesh_8yiux")
+
+[node name="Plate5" type="Node3D" parent="Face" unique_id=896842552]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.158, 0.581, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate5" unique_id=787512866]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_tsf2o")
+mesh = SubResource("BoxMesh_68umb")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate5" unique_id=1176889991]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_j0jdb")
+mesh = SubResource("BoxMesh_pxo0g")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate5" unique_id=1922630873]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 0.000101273145
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "SALOON TEMP."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate6" type="Node3D" parent="Face" unique_id=949526725]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3576, 0.3525, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate6" unique_id=2112747114]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_5d8n3")
+mesh = SubResource("BoxMesh_fmpod")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate6" unique_id=740728464]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_jpn8n")
+mesh = SubResource("BoxMesh_634c8")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate6" unique_id=214046292]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 8.873457e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "ALARM"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate7" type="Node3D" parent="Face" unique_id=1486618658]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2166, 0.3525, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate7" unique_id=107822046]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_17aoq")
+mesh = SubResource("BoxMesh_1vk1q")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate7" unique_id=1955637201]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_66ypn")
+mesh = SubResource("BoxMesh_6kxua")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate7" unique_id=2140362091]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 8.873457e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "BRAKE ON"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate8" type="Node3D" parent="Face" unique_id=890494779]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0724, 0.3525, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate8" unique_id=702068678]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_onkrq")
+mesh = SubResource("BoxMesh_omwxp")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate8" unique_id=1995703897]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_0bt7i")
+mesh = SubResource("BoxMesh_8wvp5")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate8" unique_id=216520249]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 8.873457e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "HEATING"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate9" type="Node3D" parent="Face" unique_id=825925174]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0701, 0.3525, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate9" unique_id=340958163]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_74vok")
+mesh = SubResource("BoxMesh_5pn4b")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate9" unique_id=202153116]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_74hrb")
+mesh = SubResource("BoxMesh_nasdn")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate9" unique_id=1579984819]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 8.873457e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "DOORS OPEN"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate10" type="Node3D" parent="Face" unique_id=1874277840]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2139, 0.3525, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate10" unique_id=683905995]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_45d4c")
+mesh = SubResource("BoxMesh_nh1rq")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate10" unique_id=330354999]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_eykox")
+mesh = SubResource("BoxMesh_gwcft")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate10" unique_id=1825967356]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 8.873457e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "LIGHTING"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="LampGlow" type="MeshInstance3D" parent="Face" unique_id=923081857]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.2139, 0.307, 0.1028)
+material_override = SubResource("StandardMaterial3D_jf54w")
+mesh = SubResource("CylinderMesh_cyahh")
+
+[node name="Plate11" type="Node3D" parent="Face" unique_id=1322679021]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3547, 0.3525, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate11" unique_id=1178625015]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_ipdav")
+mesh = SubResource("BoxMesh_gacuo")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate11" unique_id=1863186003]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_bqppb")
+mesh = SubResource("BoxMesh_2q8o8")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate11" unique_id=221860992]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 8.873457e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "CHARGING"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="LampGlow2" type="MeshInstance3D" parent="Face" unique_id=1481720051]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.3547, 0.307, 0.1028)
+material_override = SubResource("StandardMaterial3D_ppg7w")
+mesh = SubResource("CylinderMesh_jwuuj")
+
+[node name="Plate12" type="Node3D" parent="Face" unique_id=1210901489]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3769, 0.218, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate12" unique_id=83493556]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_i88ed")
+mesh = SubResource("BoxMesh_30wme")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate12" unique_id=1863210656]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_hd5m3")
+mesh = SubResource("BoxMesh_8pf8p")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate12" unique_id=2113142512]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 7.908951e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "MASTER"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D" type="Label3D" parent="Face" unique_id=1000867100]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3429, 0.168, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "ON"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D2" type="Label3D" parent="Face" unique_id=1408408617]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3429, 0.118, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "OFF"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate13" type="Node3D" parent="Face" unique_id=904594615]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2722, 0.218, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate13" unique_id=1626171413]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_n2gkd")
+mesh = SubResource("BoxMesh_28meu")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate13" unique_id=681200870]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_c1sjp")
+mesh = SubResource("BoxMesh_oi083")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate13" unique_id=208032250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 7.908951e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "SALOON"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D3" type="Label3D" parent="Face" unique_id=172813797]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2382, 0.168, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "ON"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D4" type="Label3D" parent="Face" unique_id=402595883]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2382, 0.118, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "OFF"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate14" type="Node3D" parent="Face" unique_id=1056101022]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1625, 0.218, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate14" unique_id=181844370]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_6poha")
+mesh = SubResource("BoxMesh_28e4w")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate14" unique_id=110085911]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_2kmil")
+mesh = SubResource("BoxMesh_am755")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate14" unique_id=2034770269]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 7.908951e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "VESTIBULE"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D5" type="Label3D" parent="Face" unique_id=555490687]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1285, 0.168, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "ON"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D6" type="Label3D" parent="Face" unique_id=783156642]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1285, 0.118, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "OFF"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate15" type="Node3D" parent="Face" unique_id=281099853]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0527, 0.218, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate15" unique_id=858369687]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_hus0l")
+mesh = SubResource("BoxMesh_kqa5m")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate15" unique_id=834406003]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_y7cxa")
+mesh = SubResource("BoxMesh_u1den")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate15" unique_id=2071265836]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 7.908951e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "W.C."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D7" type="Label3D" parent="Face" unique_id=587621243]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0187, 0.168, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "ON"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D8" type="Label3D" parent="Face" unique_id=483507387]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0187, 0.118, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "OFF"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate16" type="Node3D" parent="Face" unique_id=1675254739]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0532, 0.218, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate16" unique_id=1393706179]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_dcogl")
+mesh = SubResource("BoxMesh_088yl")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate16" unique_id=176921419]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_ilw3y")
+mesh = SubResource("BoxMesh_hriil")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate16" unique_id=1080932474]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 7.908951e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "HEATING"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D9" type="Label3D" parent="Face" unique_id=1074215335]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0872, 0.168, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "ON"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D10" type="Label3D" parent="Face" unique_id=165698281]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0872, 0.118, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "OFF"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate17" type="Node3D" parent="Face" unique_id=231650178]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1623, 0.218, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate17" unique_id=1197743805]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_rawio")
+mesh = SubResource("BoxMesh_gchys")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate17" unique_id=1432854279]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_ofx1x")
+mesh = SubResource("BoxMesh_d47pm")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate17" unique_id=2059851749]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 7.908951e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "FANS"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D11" type="Label3D" parent="Face" unique_id=1627294541]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1963, 0.168, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "ON"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D12" type="Label3D" parent="Face" unique_id=572232777]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1963, 0.118, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "OFF"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate18" type="Node3D" parent="Face" unique_id=166659788]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.27, 0.218, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate18" unique_id=2308641]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_lb5pk")
+mesh = SubResource("BoxMesh_5d402")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate18" unique_id=1431008203]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_k6gi3")
+mesh = SubResource("BoxMesh_k7y65")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate18" unique_id=1098601088]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 7.908951e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "LAMP TEST"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate19" type="Node3D" parent="Face" unique_id=711689070]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0.218, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate19" unique_id=872229666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_xg25i")
+mesh = SubResource("BoxMesh_mc5wt")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate19" unique_id=1269129431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_j3bxv")
+mesh = SubResource("BoxMesh_wl54u")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate19" unique_id=539711315]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 7.908951e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "EMERG. LIGHT"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D13" type="Label3D" parent="Face" unique_id=1892874709]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.414, 0.168, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "ON"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D14" type="Label3D" parent="Face" unique_id=2072270920]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.414, 0.118, 0.0878)
+pixel_size = 6.26929e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "OFF"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Plate20" type="Node3D" parent="Face" unique_id=1158206868]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.062, 0.088)
+
+[node name="Border" type="MeshInstance3D" parent="Face/Plate20" unique_id=1108307728]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00075)
+material_override = SubResource("StandardMaterial3D_nb1f4")
+mesh = SubResource("BoxMesh_4ydm1")
+
+[node name="Enamel" type="MeshInstance3D" parent="Face/Plate20" unique_id=1169396187]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00125)
+material_override = SubResource("StandardMaterial3D_ejgxo")
+mesh = SubResource("BoxMesh_vnmp7")
+
+[node name="Label3D" type="Label3D" parent="Face/Plate20" unique_id=622998798]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003)
+pixel_size = 0.000101273145
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.9, 0.86, 0.74, 1)
+text = "CARRIAGE SERVICES  ·  GRAND CONTINENTAL RAILWAY"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Screw" type="MeshInstance3D" parent="Face" unique_id=328606315]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.445, 0.765, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_hp5i0")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw" unique_id=1677345143]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_a2yv8")
+mesh = SubResource("BoxMesh_fmb3w")
+
+[node name="Screw2" type="MeshInstance3D" parent="Face" unique_id=76204146]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.445, 0.765, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_fe1l0")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw2" unique_id=659155957]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_m0w6x")
+mesh = SubResource("BoxMesh_k314r")
+
+[node name="Screw3" type="MeshInstance3D" parent="Face" unique_id=1252809017]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.445, 0.055, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_563qj")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw3" unique_id=1742660589]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_05qx6")
+mesh = SubResource("BoxMesh_idb1n")
+
+[node name="Screw4" type="MeshInstance3D" parent="Face" unique_id=1573516511]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.445, 0.055, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_c2hpd")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw4" unique_id=1551694350]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_6ntee")
+mesh = SubResource("BoxMesh_3gku5")
+
+[node name="Screw5" type="MeshInstance3D" parent="Face" unique_id=690575371]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.445, 0.41, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_gm8f3")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw5" unique_id=1106339113]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_ededt")
+mesh = SubResource("BoxMesh_68aqq")
+
+[node name="Screw6" type="MeshInstance3D" parent="Face" unique_id=466868054]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.445, 0.41, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_2mhqn")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw6" unique_id=1768415418]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_bn20k")
+mesh = SubResource("BoxMesh_mgej8")
+
+[node name="Screw7" type="MeshInstance3D" parent="Face" unique_id=935157910]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2, 0.775, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_2gai8")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw7" unique_id=103767172]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_k1p7r")
+mesh = SubResource("BoxMesh_2y5tc")
+
+[node name="Screw8" type="MeshInstance3D" parent="Face" unique_id=1201012897]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2, 0.775, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_sddun")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw8" unique_id=669027512]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_2k6i1")
+mesh = SubResource("BoxMesh_a216m")
+
+[node name="Screw9" type="MeshInstance3D" parent="Face" unique_id=824782218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 0.045, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_n1n44")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw9" unique_id=612082190]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_1phmk")
+mesh = SubResource("BoxMesh_pxxti")
+
+[node name="Screw10" type="MeshInstance3D" parent="Face" unique_id=803919551]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 0.045, 0.0868)
+material_override = SubResource("StandardMaterial3D_gu6s5")
+mesh = SubResource("SphereMesh_csipp")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Screw10" unique_id=553972840]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0015)
+material_override = SubResource("StandardMaterial3D_y1squ")
+mesh = SubResource("BoxMesh_5le81")

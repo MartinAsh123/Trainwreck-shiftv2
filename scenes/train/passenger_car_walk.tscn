@@ -1,0 +1,68 @@
+[gd_scene format=4 uid="uid://cowqhbba5vnb7"]
+
+[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="2_player"]
+[ext_resource type="PackedScene" path="res://scenes/train/train.tscn" id="12_train"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sky"]
+
+[sub_resource type="Sky" id="Sky_main"]
+sky_material = SubResource("ProceduralSkyMaterial_sky")
+
+[sub_resource type="Environment" id="Environment_main"]
+background_mode = 2
+sky = SubResource("Sky_main")
+ambient_light_source = 3
+tonemap_mode = 2
+ssao_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ground"]
+albedo_color = Color(0.36, 0.34, 0.31, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ground"]
+material = SubResource("StandardMaterial3D_ground")
+size = Vector3(200, 1, 200)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ground"]
+size = Vector3(200, 1, 200)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rail"]
+albedo_color = Color(0.5, 0.5, 0.52, 1)
+metallic = 0.8
+roughness = 0.35
+
+[sub_resource type="BoxMesh" id="BoxMesh_rail"]
+material = SubResource("StandardMaterial3D_rail")
+size = Vector3(200, 0.15, 0.07)
+
+[node name="PassengerCarWalk" type="Node3D" unique_id=753293832]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=864178859]
+environment = SubResource("Environment_main")
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=58030617]
+transform = Transform3D(0.8253356, -0.44229966, 0.3509874, 0, 0.62161, 0.7833269, -0.5646425, -0.6465076, 0.51303685, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Ground" type="StaticBody3D" parent="." unique_id=935671592]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="Ground" unique_id=1412549363]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.007922649, -0.4404018, 0.06852102)
+mesh = SubResource("BoxMesh_ground")
+
+[node name="Collision" type="CollisionShape3D" parent="Ground" unique_id=1472466407]
+shape = SubResource("BoxShape3D_ground")
+
+[node name="RailL" type="MeshInstance3D" parent="." unique_id=1664696457]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.075, -0.7175)
+mesh = SubResource("BoxMesh_rail")
+
+[node name="RailR" type="MeshInstance3D" parent="." unique_id=469043200]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.075, 0.7175)
+mesh = SubResource("BoxMesh_rail")
+
+[node name="Train" parent="." instance=ExtResource("12_train")]
+
+[node name="Player" parent="." unique_id=357557566 instance=ExtResource("2_player")]
+transform = Transform3D(-3.6199901e-06, 0, -1, 0, 1, 0, 1, 0, -3.6199901e-06, -7.2, 1.45, 0)
+

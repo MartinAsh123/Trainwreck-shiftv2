@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/bed_single/bed_single.glb" id="1_xyrft"]
+
+[node name="BedSingle" type="Node3D" unique_id=464975654]
+
+[node name="Model" type="Node3D" parent="." unique_id=1606495818 instance=ExtResource("1_xyrft")]
+transform = Transform3D(-1.9509522, 0, -1.7055766e-07, 0, 1.9509522, 0, 1.7055766e-07, 0, -1.9509522, 0, 0, 0)

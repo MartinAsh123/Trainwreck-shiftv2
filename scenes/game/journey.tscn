@@ -1,0 +1,52 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/train/train.tscn" id="1_train"]
+[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="2_player"]
+[ext_resource type="Script" path="res://scripts/world/journey.gd" id="3_journey"]
+[ext_resource type="Script" path="res://scripts/world/scenery.gd" id="4_scenery"]
+[ext_resource type="Script" path="res://scripts/world/weather.gd" id="5_weather"]
+[ext_resource type="Script" path="res://scripts/audio/game_audio.gd" id="6_audio"]
+[ext_resource type="Script" path="res://scripts/world/render_tuning.gd" id="7_tuning"]
+[ext_resource type="Script" path="res://scripts/audio/loco_whistle.gd" id="8_whistle"]
+[ext_resource type="Script" path="res://scripts/life/world_life.gd" id="9_life"]
+[ext_resource type="Script" path="res://scripts/characters/passengers.gd" id="10_pax"]
+
+[ext_resource type="Script" path="res://scripts/world/shadow_budget.gd" id="90_shadowbudget"]
+[ext_resource type="Script" path="res://scripts/gameplay/gameplay.gd" id="91_gameplay"]
+
+[node name="JourneyScene" type="Node3D"]
+
+[node name="Weather" type="Node3D" parent="."]
+script = ExtResource("5_weather")
+
+[node name="Scenery" type="Node3D" parent="."]
+script = ExtResource("4_scenery")
+
+[node name="WorldLife" type="Node3D" parent="."]
+script = ExtResource("9_life")
+
+[node name="Journey" type="Node" parent="."]
+script = ExtResource("3_journey")
+
+[node name="Train" parent="." instance=ExtResource("1_train")]
+
+[node name="Passengers" type="Node3D" parent="."]
+script = ExtResource("10_pax")
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+transform = Transform3D(-3.6199901e-06, 0, -1, 0, 1, 0, 1, 0, -3.6199901e-06, -7.2, 1.45, 0)
+
+[node name="Audio" type="Node" parent="."]
+script = ExtResource("6_audio")
+
+[node name="LocoWhistle" type="Node" parent="Audio"]
+script = ExtResource("8_whistle")
+
+[node name="RenderTuning" type="Node" parent="."]
+script = ExtResource("7_tuning")
+
+[node name="ShadowBudget" type="Node" parent="."]
+script = ExtResource("90_shadowbudget")
+
+[node name="Gameplay" type="Node3D" parent="."]
+script = ExtResource("91_gameplay")

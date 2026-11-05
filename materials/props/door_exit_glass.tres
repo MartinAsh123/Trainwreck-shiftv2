@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ofm4cb6bogu5"]
+
+[ext_resource type="Shader" uid="uid://dfdv3tumkmshg" path="res://shaders/train/window_glass.gdshader" id="1_p805s"]
+
+[resource]
+render_priority = 1
+shader = ExtResource("1_p805s")
+shader_parameter/tint = Color(0.72, 0.8, 0.78, 1)
+shader_parameter/clarity = 0.1
+shader_parameter/frosted = 0.0
+shader_parameter/dirt_amount = 0.4
+shader_parameter/half_size = Vector2(0.24450001, 0.26375002)
+shader_parameter/grime_color = Color(0.4, 0.36, 0.28, 1)

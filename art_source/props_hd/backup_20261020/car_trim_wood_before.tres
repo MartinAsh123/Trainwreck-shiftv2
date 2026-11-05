@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://shaders/train/car_interior.gdshader" id="1_int"]
+
+[resource]
+shader = ExtResource("1_int")
+shader_parameter/force_wood = true

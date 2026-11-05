@@ -1,0 +1,249 @@
+{
+ "_about": "Eye frames read by eye off previews/<slug>_eye_grid.png (scripts/eye_grid.py): [x0, x1, top, bottom] in mm from the detected pupil of the character's right eye, x positive toward the nose; 'open' the sculpted opening, 'paint' the painted eye. Only the characters whose paint is 3 mm or more off its opening (they get fix_eyes.py geo); the rest are within ~2 mm and stay as Tripo made them.",
+ "man_in_coat": {
+  "open": [
+   -9,
+   15.75,
+   -0.25,
+   -7
+  ],
+  "paint": [
+   -18,
+   17,
+   5.75,
+   -4.25
+  ]
+ },
+ "adult_male": {
+  "open": [
+   -8.5,
+   15.5,
+   2,
+   -5.5
+  ],
+  "paint": [
+   -19.75,
+   15,
+   6.25,
+   -4
+  ]
+ },
+ "elderly_woman_3": {
+  "open": [
+   -15.2,
+   14,
+   -1.2,
+   -8.4
+  ],
+  "paint": [
+   -18.8,
+   16,
+   6.4,
+   -3.6
+  ]
+ },
+ "elderly_woman_4": {
+  "open": [
+   -11.6,
+   13.6,
+   -3.4,
+   -11.6
+  ],
+  "paint": [
+   -16,
+   14,
+   4,
+   -5.2
+  ]
+ },
+ "elderly_woman_5": {
+  "open": [
+   2,
+   22,
+   -1,
+   -8.5
+  ],
+  "paint": [
+   -13,
+   18.5,
+   5.75,
+   -4.75
+  ]
+ },
+ "elderly_woman_6": {
+  "open": [
+   -10.75,
+   22.5,
+   0.75,
+   -6
+  ],
+  "paint": [
+   -14.5,
+   18.5,
+   5.5,
+   -2.25
+  ]
+ },
+ "fashion_mannequin": {
+  "open": [
+   -9,
+   10.75,
+   0.25,
+   -6.25
+  ],
+  "paint": [
+   -22,
+   13.5,
+   7.5,
+   -5
+  ]
+ },
+ "human_figure_2": {
+  "open": [
+   -15.5,
+   13.5,
+   0.25,
+   -9
+  ],
+  "paint": [
+   -22,
+   16,
+   7,
+   -4.75
+  ]
+ },
+ "human_figure": {
+  "open": [
+   -16.5,
+   11.5,
+   2,
+   -10
+  ],
+  "paint": [
+   -28,
+   4.5,
+   7,
+   -6.25
+  ]
+ },
+ "mannequin_figure": {
+  "open": [
+   -9,
+   14.5,
+   -0.75,
+   -8.5
+  ],
+  "paint": [
+   -23,
+   15,
+   6.75,
+   -4
+  ]
+ },
+ "winter_coat_character": {
+  "open": [
+   -17.5,
+   7,
+   -1,
+   -12
+  ],
+  "paint": [
+   -28,
+   4,
+   5,
+   -7
+  ]
+ },
+ "leather_jacket_man": {
+  "open": [
+   -21,
+   14,
+   1,
+   -6.5
+  ],
+  "paint": [
+   -21.5,
+   14.5,
+   5.5,
+   -5.5
+  ]
+ },
+ "military_figure": {
+  "open": [
+   -16,
+   12,
+   3,
+   -5.5
+  ],
+  "paint": [
+   -20,
+   17,
+   8,
+   -6
+  ]
+ },
+ "old_man": {
+  "open": [
+   -17,
+   14,
+   0.8,
+   -7
+  ],
+  "paint": [
+   -26,
+   18,
+   3.2,
+   -7
+  ]
+ },
+ "action_figure": {
+  "open": [
+   -13,
+   14.5,
+   -0.8,
+   -9
+  ],
+  "paint": [
+   -20,
+   16,
+   3,
+   -9.5
+  ]
+ },
+ "long_camel_coat": {
+  "open": [
+   -20,
+   4,
+   4.5,
+   -3
+  ],
+  "paint": [
+   -24,
+   6,
+   6,
+   -3.5
+  ]
+ },
+ "mike": {
+  "open": [
+   -14.5,
+   15.5,
+   -1.5,
+   -8.0
+  ],
+  "paint": [
+   -14.5,
+   15,
+   0,
+   -8.5
+  ],
+  "sheet_front": 3.6,
+  "iris": [
+   0.1,
+   0.06,
+   0.035
+  ],
+  "iris_r": 5.2,
+  "lash_in": 0.7
+ }
+}

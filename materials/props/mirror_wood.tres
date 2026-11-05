@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://shaders/props/texture_key.gdshader" id="1_qr6ju"]
+[ext_resource type="Texture2D" path="res://TripoModels/mirror_wood/mirror_wood_wood+framed+mirror+3d+model_basecolor.jpg" id="2_qa21k"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_qr6ju")
+shader_parameter/albedo_tex = ExtResource("2_qa21k")
+shader_parameter/mode = 3
+shader_parameter/key_min_value = null
+shader_parameter/key_max_saturation = null
+shader_parameter/key_softness = null
+shader_parameter/glass_tint = null
+shader_parameter/clear_alpha = null
+shader_parameter/frosted_alpha = null
+shader_parameter/glow_energy = null
+shader_parameter/surface_roughness = null

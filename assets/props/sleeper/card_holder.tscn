@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/card_holder/card_holder.glb" id="1_eq3ey"]
+
+[node name="CardHolder" type="Node3D" unique_id=130483204]
+
+[node name="Model" type="Node3D" parent="." unique_id=131208509 instance=ExtResource("1_eq3ey")]
+transform = Transform3D(-0.20009768, 0, -1.7493095e-08, 0, 0.20009768, 0, 1.7493095e-08, 0, -0.20009768, 0, -0.07616022, 0)

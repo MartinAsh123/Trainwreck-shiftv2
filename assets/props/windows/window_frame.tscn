@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/window_frame/window_frame.glb" id="1_nw55h"]
+
+[node name="WindowFrame" type="Node3D" unique_id=353852172]
+metadata/opening_size = Vector2(1.016, 0.8)
+metadata/outer_size = Vector2(1.186, 0.955)
+metadata/outer_center_y = 0.0013
+metadata/frame_depth = 0.084
+metadata/glass_z = -0.031
+metadata/corner_radius = 0.08
+
+[node name="Model" type="Node3D" parent="." unique_id=718193539 instance=ExtResource("1_nw55h")]

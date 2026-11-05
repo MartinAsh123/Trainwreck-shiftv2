@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/coat_hook/coat_hook.glb" id="1_hjlxh"]
+
+[node name="CoatHook" type="Node3D" unique_id=2146031561]
+
+[node name="Model" type="Node3D" parent="." unique_id=1783989774 instance=ExtResource("1_hjlxh")]
+transform = Transform3D(-0.3801856, 0, -3.323688e-08, 0, 0.3801856, 0, 3.323688e-08, 0, -0.3801856, 0, -0.10869075, -1.4901161e-08)

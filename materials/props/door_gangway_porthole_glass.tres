@@ -1,0 +1,19 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ccwhgfig676jf"]
+
+[ext_resource type="Shader" path="res://shaders/props/texture_key_2s.gdshader" id="1_5eomh"]
+[ext_resource type="Texture2D" uid="uid://2a4gom7odhhb" path="res://TripoModels/door_gangway_porthole/door_gangway_porthole_wooden+door+3d+model_basecolor.jpg" id="2_thahn"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_5eomh")
+shader_parameter/albedo_tex = ExtResource("2_thahn")
+shader_parameter/mode = 0
+shader_parameter/key_min_value = 0.8
+shader_parameter/key_max_saturation = 0.12
+shader_parameter/key_softness = 0.05
+shader_parameter/glass_tint = Color(0.86, 0.9, 0.92, 1)
+shader_parameter/clear_alpha = 0.15
+shader_parameter/sheen = 0.8
+shader_parameter/frosted_alpha = 0.9
+shader_parameter/glow_energy = 3.0
+shader_parameter/surface_roughness = 0.5

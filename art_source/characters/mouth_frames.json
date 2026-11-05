@@ -1,0 +1,117 @@
+{
+ "_about": "Lips under a moustache, read by eye off previews/<slug>_eye_grid_mouth2.png (centred on the sculpted slit's middle, 1 mm grid): points [x mm across, z mm up] of the painted slit (the dark line between the painted lips) and of the moustache's painted lower edge. scripts/repaint_face.py lipsm moves the painted lips onto the sculpted slit and keeps the moustache. upper: what goes between the sculpted slit and the moustache's painted edge - 'lip' (an upper lip, the default) or 'hair' (the sculpted moustache reaches the slit). rel: 'groove' - heights are over the sculpted slit at that x (read from the pixels with LIPS_DEBUG=1), not over the mouth point. lower: [painted, sculpted] height of the lower lip in mm (default 8, 8). inner_dark: true - the slit is sculpted as a gap; its inner faces get a dark material (face_rig.py).",
+ "vintage_detective_2": {
+  "paint_slit": [
+   [
+    -28,
+    4.6
+   ],
+   [
+    0,
+    5.6
+   ],
+   [
+    28,
+    4.6
+   ]
+  ],
+  "moustache_edge": [
+   [
+    -30,
+    4.5
+   ],
+   [
+    -20,
+    6.6
+   ],
+   [
+    0,
+    8.0
+   ],
+   [
+    20,
+    6.6
+   ],
+   [
+    30,
+    4.5
+   ]
+  ]
+ },
+ "adult_male": {
+  "rel": "groove",
+  "paint_slit": [
+   [
+    -28,
+    5.2
+   ],
+   [
+    0,
+    5.0
+   ],
+   [
+    28,
+    6.0
+   ]
+  ],
+  "moustache_edge": [
+   [
+    -28,
+    5.8
+   ],
+   [
+    0,
+    5.6
+   ],
+   [
+    28,
+    6.6
+   ]
+  ],
+  "upper": "hair"
+ },
+ "leather_jacket_man": {
+  "rel": "groove",
+  "paint_slit": [
+   [
+    -25,
+    3.5
+   ],
+   [
+    0,
+    4.0
+   ],
+   [
+    25,
+    3.5
+   ]
+  ],
+  "moustache_edge": [
+   [
+    -25,
+    8.5
+   ],
+   [
+    0,
+    9.5
+   ],
+   [
+    25,
+    8.5
+   ]
+  ],
+  "upper": "hair",
+  "lower": [
+   6,
+   9
+  ],
+  "inner_dark": true
+ },
+ "winter_clothing_man": {
+  "stubble": true
+ },
+ "mike": {
+  "stubble": true,
+  "paint_offset": 4.4
+ }
+}

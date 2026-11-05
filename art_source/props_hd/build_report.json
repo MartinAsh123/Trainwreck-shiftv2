@@ -1,0 +1,2305 @@
+{
+ "writing_desk": {
+  "tris": 8564,
+  "materials": [
+   "wood",
+   "wood_darkstain",
+   "leather_green",
+   "gold",
+   "brass",
+   "bakelite"
+  ],
+  "dims_blender": [
+   1.002,
+   0.591,
+   0.762
+  ]
+ },
+ "bentwood_chair": {
+  "tris": 6672,
+  "materials": [
+   "wood",
+   "leather",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   0.43,
+   0.507,
+   0.94
+  ]
+ },
+ "wardrobe": {
+  "tris": 11936,
+  "materials": [
+   "wood_darkstain",
+   "wood",
+   "brass",
+   "bakelite"
+  ],
+  "dims_blender": [
+   0.86,
+   0.591,
+   1.95
+  ]
+ },
+ "steel_locker": {
+  "tris": 10044,
+  "materials": [
+   "iron",
+   "paint_green",
+   "bakelite",
+   "steel_dark",
+   "steel",
+   "paper_aged",
+   "black_paint_gloss",
+   "brass"
+  ],
+  "dims_blender": [
+   0.78,
+   0.567,
+   1.9
+  ]
+ },
+ "strongbox": {
+  "tris": 5320,
+  "materials": [
+   "iron",
+   "iron_green",
+   "gold",
+   "brass",
+   "bakelite"
+  ],
+  "dims_blender": [
+   0.5,
+   0.55,
+   0.62
+  ]
+ },
+ "key_cabinet": {
+  "tris": 19052,
+  "materials": [
+   "wood_dark",
+   "wood",
+   "wood_darkstain",
+   "brass",
+   "paper_aged",
+   "steel"
+  ],
+  "dims_blender": [
+   0.47,
+   0.095,
+   0.535
+  ]
+ },
+ "wall_clock_guard": {
+  "tris": 3096,
+  "materials": [
+   "wood",
+   "brass",
+   "dial_guard",
+   "black_paint_gloss"
+  ],
+  "dims_blender": [
+   0.308,
+   0.059,
+   0.308
+  ]
+ },
+ "wall_clock_station": {
+  "tris": 3096,
+  "materials": [
+   "wood",
+   "brass",
+   "dial_station",
+   "black_paint_gloss"
+  ],
+  "dims_blender": [
+   0.318,
+   0.074,
+   0.318
+  ]
+ },
+ "rug": {
+  "tris": 2910,
+  "materials": [
+   "rug",
+   "string"
+  ],
+  "dims_blender": [
+   1.914,
+   0.95,
+   0.007
+  ]
+ },
+ "guard_cap": {
+  "tris": 3118,
+  "materials": [
+   "felt_navy",
+   "leather_black",
+   "brass"
+  ],
+  "dims_blender": [
+   0.236,
+   0.285,
+   0.125
+  ]
+ },
+ "truncheon": {
+  "tris": 1692,
+  "materials": [
+   "leather",
+   "wood_dark"
+  ],
+  "dims_blender": [
+   0.041,
+   0.053,
+   0.442
+  ]
+ },
+ "ledger_open": {
+  "tris": 2260,
+  "materials": [
+   "leather_red",
+   "paper_aged",
+   "ledger_page",
+   "paint_red",
+   "bakelite",
+   "gold"
+  ],
+  "dims_blender": [
+   0.41,
+   0.305,
+   0.034
+  ]
+ },
+ "handcuffs": {
+  "tris": 5304,
+  "materials": [
+   "steel",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   0.228,
+   0.076,
+   0.016
+  ]
+ },
+ "ink_stand": {
+  "tris": 2408,
+  "materials": [
+   "wood",
+   "wood_darkstain",
+   "ink",
+   "brass",
+   "wood_dark"
+  ],
+  "dims_blender": [
+   0.209,
+   0.1,
+   0.092
+  ]
+ },
+ "paper_stack": {
+  "tris": 62,
+  "materials": [
+   "paper_aged",
+   "paper",
+   "ledger_page"
+  ],
+  "dims_blender": [
+   0.237,
+   0.309,
+   0.007
+  ]
+ },
+ "pager": {
+  "tris": 1340,
+  "materials": [
+   "bakelite",
+   "steel_dark",
+   "lcd",
+   "black_paint_gloss",
+   "rubber",
+   "lens_red",
+   "steel",
+   "brass"
+  ],
+  "dims_blender": [
+   0.078,
+   0.052,
+   0.024
+  ]
+ },
+ "ticket_punch": {
+  "tris": 2044,
+  "materials": [
+   "steel_dark",
+   "steel",
+   "brass"
+  ],
+  "dims_blender": [
+   0.174,
+   0.077,
+   0.016
+  ]
+ },
+ "enamel_mug": {
+  "tris": 2964,
+  "materials": [
+   "enamel_white",
+   "enamel_blue",
+   "tea"
+  ],
+  "dims_blender": [
+   0.11,
+   0.085,
+   0.091
+  ]
+ },
+ "bankers_lamp": {
+  "tris": 3496,
+  "materials": [
+   "brass",
+   "shade_green",
+   "bulb"
+  ],
+  "dims_blender": [
+   0.266,
+   0.19,
+   0.383
+  ]
+ },
+ "nightstand": {
+  "tris": 2002,
+  "materials": [
+   "ClassicNightstand_01"
+  ],
+  "dims_blender": [
+   0.42,
+   0.314,
+   0.518
+  ]
+ },
+ "alarm_clock": {
+  "tris": 8265,
+  "materials": [
+   "alarm_clock_01",
+   "alarm_clock_01_Glass"
+  ],
+  "dims_blender": [
+   0.129,
+   0.061,
+   0.17
+  ]
+ },
+ "hand_lamp": {
+  "tris": 33902,
+  "materials": [
+   "Lantern_01_brass",
+   "Lantern_01_glass"
+  ],
+  "dims_blender": [
+   0.112,
+   0.089,
+   0.27
+  ]
+ },
+ "journal": {
+  "tris": 1688,
+  "materials": [
+   "leather_red",
+   "paper_aged",
+   "bakelite",
+   "brass",
+   "paint_red",
+   "handle",
+   "rubber"
+  ],
+  "dims_blender": [
+   0.188,
+   0.27,
+   0.026
+  ]
+ },
+ "sorting_desk": {
+  "tris": 43928,
+  "materials": [
+   "wood_darkstain",
+   "wood",
+   "brass",
+   "paper",
+   "paper_aged"
+  ],
+  "dims_blender": [
+   3.36,
+   0.639,
+   1.975
+  ]
+ },
+ "letter_table": {
+  "tris": 12736,
+  "materials": [
+   "wood",
+   "wood_dark",
+   "paper_aged",
+   "paper"
+  ],
+  "dims_blender": [
+   2.9,
+   0.5,
+   0.868
+  ]
+ },
+ "letter_scale": {
+  "tris": 1204,
+  "materials": [
+   "wood",
+   "brass",
+   "dial_station",
+   "black_paint_gloss"
+  ],
+  "dims_blender": [
+   0.22,
+   0.12,
+   0.26
+  ]
+ },
+ "date_stamp": {
+  "tris": 1024,
+  "materials": [
+   "galvanized",
+   "felt_navy",
+   "iron",
+   "rubber",
+   "wood_dark"
+  ],
+  "dims_blender": [
+   0.18,
+   0.08,
+   0.142
+  ]
+ },
+ "string_ball": {
+  "tris": 5586,
+  "materials": [
+   "string"
+  ],
+  "dims_blender": [
+   0.154,
+   0.088,
+   0.088
+  ]
+ },
+ "letter_bundle_a": {
+  "tris": 1608,
+  "materials": [
+   "paper",
+   "paper_aged",
+   "string"
+  ],
+  "dims_blender": [
+   0.164,
+   0.104,
+   0.04
+  ]
+ },
+ "letter_bundle_b": {
+  "tris": 1656,
+  "materials": [
+   "paper_aged",
+   "string"
+  ],
+  "dims_blender": [
+   0.164,
+   0.104,
+   0.055
+  ]
+ },
+ "letter_bundle_c": {
+  "tris": 1704,
+  "materials": [
+   "paper",
+   "paper_aged",
+   "string"
+  ],
+  "dims_blender": [
+   0.164,
+   0.104,
+   0.07
+  ]
+ },
+ "bag_rack": {
+  "tris": 18425,
+  "materials": [
+   "iron",
+   "steel_dark",
+   "brass",
+   "canvas",
+   "leather",
+   "paper_aged",
+   "paper",
+   "stencil_ink",
+   "canvas_dark"
+  ],
+  "dims_blender": [
+   1.005,
+   0.515,
+   1.692
+  ]
+ },
+ "mail_sack": {
+  "tris": 2492,
+  "materials": [
+   "canvas",
+   "string",
+   "steel_dark",
+   "canvas_dark"
+  ],
+  "dims_blender": [
+   0.65,
+   0.413,
+   0.277
+  ]
+ },
+ "parcel_a": {
+  "tris": 2866,
+  "materials": [
+   "kraft",
+   "string",
+   "parcel_label",
+   "paint_red"
+  ],
+  "dims_blender": [
+   0.427,
+   0.327,
+   0.314
+  ]
+ },
+ "parcel_b": {
+  "tris": 2866,
+  "materials": [
+   "kraft_dark",
+   "string",
+   "parcel_label",
+   "paint_red"
+  ],
+  "dims_blender": [
+   0.307,
+   0.247,
+   0.214
+  ]
+ },
+ "parcel_c": {
+  "tris": 2866,
+  "materials": [
+   "kraft",
+   "string",
+   "parcel_label",
+   "paint_red"
+  ],
+  "dims_blender": [
+   0.367,
+   0.267,
+   0.194
+  ]
+ },
+ "parcel_rack": {
+  "tris": 35630,
+  "materials": [
+   "pine_dark",
+   "pine",
+   "steel_dark",
+   "kraft",
+   "string",
+   "parcel_label",
+   "paint_red",
+   "kraft_dark"
+  ],
+  "dims_blender": [
+   1.2,
+   0.555,
+   1.75
+  ]
+ },
+ "milk_churn": {
+  "tris": 4572,
+  "materials": [
+   "galvanized",
+   "brass"
+  ],
+  "dims_blender": [
+   0.368,
+   0.368,
+   0.872
+  ]
+ },
+ "steamer_trunk": {
+  "tris": 4976,
+  "materials": [
+   "canvas_green",
+   "wood",
+   "leather",
+   "brass",
+   "bakelite"
+  ],
+  "dims_blender": [
+   0.976,
+   0.519,
+   0.513
+  ]
+ },
+ "luggage": {
+  "tris": 10712,
+  "materials": [
+   "canvas_green",
+   "wood",
+   "leather",
+   "brass",
+   "bakelite",
+   "leather_black"
+  ],
+  "dims_blender": [
+   0.976,
+   0.519,
+   0.817
+  ]
+ },
+ "sack_truck": {
+  "tris": 5572,
+  "materials": [
+   "handle",
+   "leather_black",
+   "rubber",
+   "iron",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   0.59,
+   0.458,
+   1.371
+  ]
+ },
+ "platform_scale": {
+  "tris": 4772,
+  "materials": [
+   "iron_green",
+   "pine_dark",
+   "iron",
+   "brass",
+   "black_paint_gloss",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   0.6,
+   0.59,
+   1.12
+  ]
+ },
+ "cage_bench": {
+  "tris": 3816,
+  "materials": [
+   "pine",
+   "iron",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   2.2,
+   0.386,
+   0.85
+  ]
+ },
+ "pail": {
+  "tris": 2956,
+  "materials": [
+   "galvanized",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   0.278,
+   0.272,
+   0.427
+  ]
+ },
+ "sorting_stool": {
+  "tris": 10946,
+  "materials": [
+   "wooden_stool_01"
+  ],
+  "dims_blender": [
+   0.346,
+   0.36,
+   0.356
+  ]
+ },
+ "crate_a": {
+  "tris": 6576,
+  "materials": [
+   "wooden_crate_01"
+  ],
+  "dims_blender": [
+   0.55,
+   0.273,
+   0.233
+  ]
+ },
+ "crate_b": {
+  "tris": 5176,
+  "materials": [
+   "wooden_crate_02"
+  ],
+  "dims_blender": [
+   0.181,
+   0.4,
+   0.159
+  ]
+ },
+ "railway_lamp_white": {
+  "tris": 3272,
+  "materials": [
+   "paint_black",
+   "black_paint_gloss",
+   "brass",
+   "lens_white",
+   "steel_dark",
+   "iron"
+  ],
+  "dims_blender": [
+   0.188,
+   0.232,
+   0.29
+  ]
+ },
+ "railway_lamp_red": {
+  "tris": 3272,
+  "materials": [
+   "paint_red",
+   "black_paint_gloss",
+   "brass",
+   "lens_red",
+   "steel_dark",
+   "iron"
+  ],
+  "dims_blender": [
+   0.188,
+   0.232,
+   0.29
+  ]
+ },
+ "cab_lamp": {
+  "tris": 3856,
+  "materials": [
+   "brass",
+   "lens_white"
+  ],
+  "dims_blender": [
+   0.14,
+   0.14,
+   0.176
+  ]
+ },
+ "gauge_case": {
+  "tris": 3152,
+  "materials": [
+   "paint_black",
+   "brass",
+   "steel",
+   "copper"
+  ],
+  "dims_blender": [
+   0.238,
+   0.088,
+   0.31
+  ]
+ },
+ "backhead_fittings": {
+  "tris": 48998,
+  "materials": [
+   "paint_black",
+   "steel",
+   "steel_dark",
+   "iron",
+   "firebrick_hot",
+   "firebrick_glow",
+   "embers",
+   "coal",
+   "embers_hot",
+   "brass",
+   "bakelite_brown",
+   "glass",
+   "water",
+   "enamel_white",
+   "black_paint_gloss",
+   "copper",
+   "handle",
+   "paint_red",
+   "string",
+   "bakelite"
+  ],
+  "dims_blender": [
+   0.904,
+   1.914,
+   2.07
+  ]
+ },
+ "reverser": {
+  "tris": 3108,
+  "materials": [
+   "paint_black",
+   "brass",
+   "black_paint_gloss",
+   "steel",
+   "handle",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   0.482,
+   0.364,
+   1.162
+  ]
+ },
+ "cab_seat": {
+  "tris": 3652,
+  "materials": [
+   "paint_black",
+   "steel_dark",
+   "steel",
+   "wood_dark",
+   "leather"
+  ],
+  "dims_blender": [
+   0.466,
+   0.381,
+   1.02
+  ]
+ },
+ "shovel": {
+  "tris": 948,
+  "materials": [
+   "steel_dark",
+   "handle"
+  ],
+  "dims_blender": [
+   0.154,
+   0.261,
+   1.038
+  ]
+ },
+ "fire_irons": {
+  "tris": 2832,
+  "materials": [
+   "paint_black",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   0.075,
+   2.042,
+   0.31
+  ]
+ },
+ "coal_lumps": {
+  "tris": 1492,
+  "materials": [
+   "coal_dull"
+  ],
+  "dims_blender": [
+   0.563,
+   0.673,
+   0.103
+  ]
+ },
+ "oil_can": {
+  "tris": 16746,
+  "materials": [
+   "small_oil_can_01"
+  ],
+  "dims_blender": [
+   0.2,
+   0.078,
+   0.178
+  ]
+ },
+ "sanding_lever": {
+  "tris": 2244,
+  "materials": [
+   "paint_black",
+   "steel_dark",
+   "steel",
+   "bakelite"
+  ],
+  "dims_blender": [
+   0.189,
+   0.118,
+   0.734
+  ]
+ },
+ "handbrake": {
+  "tris": 2144,
+  "materials": [
+   "paint_black",
+   "handle"
+  ],
+  "dims_blender": [
+   0.322,
+   0.322,
+   1.1
+  ]
+ },
+ "water_valve": {
+  "tris": 3016,
+  "materials": [
+   "paint_black",
+   "steel_dark",
+   "copper",
+   "brass",
+   "steel",
+   "paint_red"
+  ],
+  "dims_blender": [
+   0.19,
+   0.139,
+   0.64
+  ]
+ },
+ "buffer": {
+  "tris": 1790,
+  "materials": [
+   "paint_black",
+   "steel_dark",
+   "steel"
+  ],
+  "dims_blender": [
+   0.37,
+   0.38,
+   0.38
+  ]
+ },
+ "loco_boiler": {
+  "tris": 28078,
+  "materials": [
+   "loco_green",
+   "loco_black",
+   "brass",
+   "gold",
+   "steel",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   10.245,
+   1.908,
+   2.755
+  ]
+ },
+ "loco_frames": {
+  "tris": 44476,
+  "materials": [
+   "loco_black",
+   "loco_green",
+   "gold",
+   "brass",
+   "steel_dark",
+   "rust",
+   "steel",
+   "loco_red",
+   "rubber"
+  ],
+  "dims_blender": [
+   13.944,
+   2.946,
+   1.981
+  ]
+ },
+ "loco_cab": {
+  "tris": 13724,
+  "materials": [
+   "pine_dark",
+   "steel",
+   "loco_green",
+   "paint_cream",
+   "gold",
+   "brass",
+   "glass",
+   "wood",
+   "loco_black",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   3.1,
+   3.12,
+   3.455
+  ]
+ },
+ "loco_tender": {
+  "tris": 45458,
+  "materials": [
+   "loco_green",
+   "loco_black",
+   "gold",
+   "coal",
+   "steel",
+   "steel_dark",
+   "rust",
+   "loco_red",
+   "rubber",
+   "brass",
+   "paint_cream",
+   "wood",
+   "pine_dark"
+  ],
+  "dims_blender": [
+   9.271,
+   2.78,
+   3.462
+  ]
+ },
+ "driver_wheel_L": {
+  "tris": 4316,
+  "materials": [
+   "steel_dark",
+   "loco_green",
+   "steel"
+  ],
+  "dims_blender": [
+   1.96,
+   0.435,
+   1.96
+  ]
+ },
+ "driver_wheel_R": {
+  "tris": 4316,
+  "materials": [
+   "steel_dark",
+   "loco_green",
+   "steel"
+  ],
+  "dims_blender": [
+   1.96,
+   0.435,
+   1.96
+  ]
+ },
+ "bogie_wheel_L": {
+  "tris": 3096,
+  "materials": [
+   "steel_dark",
+   "loco_green",
+   "steel"
+  ],
+  "dims_blender": [
+   0.96,
+   0.23,
+   0.96
+  ]
+ },
+ "bogie_wheel_R": {
+  "tris": 3096,
+  "materials": [
+   "steel_dark",
+   "loco_green",
+   "steel"
+  ],
+  "dims_blender": [
+   0.96,
+   0.23,
+   0.96
+  ]
+ },
+ "trailing_wheel_L": {
+  "tris": 3168,
+  "materials": [
+   "steel_dark",
+   "loco_green",
+   "steel"
+  ],
+  "dims_blender": [
+   1.16,
+   0.23,
+   1.16
+  ]
+ },
+ "trailing_wheel_R": {
+  "tris": 3168,
+  "materials": [
+   "steel_dark",
+   "loco_green",
+   "steel"
+  ],
+  "dims_blender": [
+   1.16,
+   0.23,
+   1.16
+  ]
+ },
+ "tender_wheel_L": {
+  "tris": 3096,
+  "materials": [
+   "steel_dark",
+   "loco_green",
+   "steel"
+  ],
+  "dims_blender": [
+   1.26,
+   0.23,
+   1.26
+  ]
+ },
+ "tender_wheel_R": {
+  "tris": 3096,
+  "materials": [
+   "steel_dark",
+   "loco_green",
+   "steel"
+  ],
+  "dims_blender": [
+   1.26,
+   0.23,
+   1.26
+  ]
+ },
+ "coupling_rod": {
+  "tris": 3340,
+  "materials": [
+   "steel",
+   "steel_dark",
+   "brass"
+  ],
+  "dims_blender": [
+   4.18,
+   0.072,
+   0.215
+  ]
+ },
+ "crosshead": {
+  "tris": 756,
+  "materials": [
+   "steel",
+   "brass",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   0.29,
+   0.14,
+   0.165
+  ]
+ },
+ "connecting_rod": {
+  "tris": 1640,
+  "materials": [
+   "steel",
+   "steel_dark",
+   "brass"
+  ],
+  "dims_blender": [
+   0.24,
+   0.09,
+   3.356
+  ]
+ },
+ "car_underframe": {
+  "tris": 32432,
+  "materials": [
+   "underframe",
+   "brass",
+   "steel_dark",
+   "rust",
+   "canvas_dark",
+   "wood_dark"
+  ],
+  "dims_blender": [
+   16.818,
+   2.964,
+   0.82
+  ]
+ },
+ "car_end_gear": {
+  "tris": 7256,
+  "materials": [
+   "steel_dark",
+   "underframe",
+   "rubber",
+   "steel",
+   "brass"
+  ],
+  "dims_blender": [
+   0.52,
+   2.87,
+   3.081
+  ]
+ },
+ "boarding_steps": {
+  "tris": 3484,
+  "materials": [
+   "steel_dark",
+   "brass",
+   "underframe"
+  ],
+  "dims_blender": [
+   1.2,
+   0.47,
+   0.381
+  ]
+ },
+ "torpedo_vent": {
+  "tris": 1508,
+  "materials": [
+   "underframe",
+   "black_paint_gloss"
+  ],
+  "dims_blender": [
+   0.34,
+   0.171,
+   0.235
+  ]
+ },
+ "body_mouldings_passenger_car": {
+  "tris": 9756,
+  "materials": [
+   "coach_green",
+   "underframe"
+  ],
+  "dims_blender": [
+   16.848,
+   3.194,
+   2.454
+  ]
+ },
+ "body_mouldings_sleeper_car": {
+  "tris": 9756,
+  "materials": [
+   "coach_green",
+   "underframe"
+  ],
+  "dims_blender": [
+   16.848,
+   3.194,
+   2.454
+  ]
+ },
+ "body_mouldings_crew_car": {
+  "tris": 8548,
+  "materials": [
+   "coach_green",
+   "underframe"
+  ],
+  "dims_blender": [
+   16.848,
+   3.194,
+   2.454
+  ]
+ },
+ "body_mouldings_mail_van": {
+  "tris": 5816,
+  "materials": [
+   "coach_green",
+   "underframe"
+  ],
+  "dims_blender": [
+   16.848,
+   3.194,
+   2.454
+  ]
+ },
+ "coach_wheelset": {
+  "tris": 19916,
+  "materials": [
+   "steel_dark",
+   "wood_dark"
+  ],
+  "dims_blender": [
+   1.675,
+   0.976,
+   0.976
+  ]
+ },
+ "coach_bogie": {
+  "tris": 16744,
+  "materials": [
+   "underframe",
+   "steel_dark",
+   "rust"
+  ],
+  "dims_blender": [
+   2.395,
+   3.646,
+   0.76
+  ]
+ },
+ "hook_rail": {
+  "tris": 5412,
+  "materials": [
+   "wood",
+   "wood_darkstain",
+   "brass"
+  ],
+  "dims_blender": [
+   0.75,
+   0.104,
+   0.15
+  ]
+ },
+ "cage_padlock": {
+  "tris": 2188,
+  "materials": [
+   "steel_dark",
+   "steel",
+   "black_paint_gloss",
+   "brass"
+  ],
+  "dims_blender": [
+   0.195,
+   0.049,
+   0.148
+  ]
+ },
+ "towel_folded": {
+  "tris": 1214,
+  "materials": [
+   "towel_white",
+   "stripe_red"
+  ],
+  "dims_blender": [
+   0.24,
+   0.203,
+   0.034
+  ]
+ },
+ "towel_folded_cream": {
+  "tris": 1214,
+  "materials": [
+   "towel_cream",
+   "stripe_red"
+  ],
+  "dims_blender": [
+   0.24,
+   0.204,
+   0.034
+  ]
+ },
+ "sheet_folded": {
+  "tris": 1090,
+  "materials": [
+   "linen_white"
+  ],
+  "dims_blender": [
+   0.28,
+   0.304,
+   0.026
+  ]
+ },
+ "sheet_folded_ivory": {
+  "tris": 1090,
+  "materials": [
+   "linen_ivory"
+  ],
+  "dims_blender": [
+   0.28,
+   0.304,
+   0.026
+  ]
+ },
+ "blanket_folded": {
+  "tris": 1030,
+  "materials": [
+   "wool_green",
+   "wool_red"
+  ],
+  "dims_blender": [
+   0.3,
+   0.325,
+   0.05
+  ]
+ },
+ "blanket_folded_grey": {
+  "tris": 1030,
+  "materials": [
+   "wool_grey",
+   "wool_red"
+  ],
+  "dims_blender": [
+   0.3,
+   0.325,
+   0.05
+  ]
+ },
+ "pillow": {
+  "tris": 2976,
+  "materials": [
+   "linen_white",
+   "linen_ivory"
+  ],
+  "dims_blender": [
+   0.367,
+   0.267,
+   0.113
+  ]
+ },
+ "toilet_roll": {
+  "tris": 972,
+  "materials": [
+   "tissue",
+   "card_core"
+  ],
+  "dims_blender": [
+   0.105,
+   0.105,
+   0.1
+  ]
+ },
+ "toilet_roll_tail": {
+  "tris": 1536,
+  "materials": [
+   "tissue",
+   "card_core"
+  ],
+  "dims_blender": [
+   0.106,
+   0.128,
+   0.126
+  ]
+ },
+ "laundry_hamper": {
+  "tris": 8972,
+  "materials": [
+   "wicker",
+   "linen_ivory",
+   "towel_white"
+  ],
+  "dims_blender": [
+   0.44,
+   0.458,
+   0.952
+  ]
+ },
+ "letters_a": {
+  "tris": 3518,
+  "materials": [
+   "paper_aged",
+   "paper",
+   "kraft",
+   "string"
+  ],
+  "dims_blender": [
+   0.161,
+   0.102,
+   0.027
+  ]
+ },
+ "letters_b": {
+  "tris": 4482,
+  "materials": [
+   "paper",
+   "paper_aged",
+   "kraft",
+   "string"
+  ],
+  "dims_blender": [
+   0.159,
+   0.103,
+   0.044
+  ]
+ },
+ "letters_c": {
+  "tris": 5646,
+  "materials": [
+   "paper",
+   "paper_aged",
+   "kraft",
+   "string"
+  ],
+  "dims_blender": [
+   0.163,
+   0.105,
+   0.055
+  ]
+ },
+ "envelope": {
+  "tris": 260,
+  "materials": [
+   "paper",
+   "paint_red",
+   "ink"
+  ],
+  "dims_blender": [
+   0.16,
+   0.003,
+   0.1
+  ]
+ },
+ "envelope_kraft": {
+  "tris": 260,
+  "materials": [
+   "kraft",
+   "paint_red",
+   "ink"
+  ],
+  "dims_blender": [
+   0.16,
+   0.003,
+   0.1
+  ]
+ },
+ "door_compartment": {
+  "tris": 8680,
+  "materials": [
+   "wood_darkstain",
+   "brass",
+   "bakelite",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   1.36,
+   0.121,
+   2.003
+  ]
+ },
+ "mop_bucket": {
+  "tris": 6464,
+  "materials": [
+   "galvanized",
+   "water_murky",
+   "steel_dark",
+   "wood_dark",
+   "mop_cotton"
+  ],
+  "dims_blender": [
+   0.337,
+   0.351,
+   1.469
+  ]
+ },
+ "coal_hole": {
+  "tris": 9214,
+  "materials": [
+   "loco_green",
+   "paint_black",
+   "coal_dull",
+   "wood_dark",
+   "steel"
+  ],
+  "dims_blender": [
+   0.402,
+   0.644,
+   0.869
+  ]
+ },
+ "staff_switchboard": {
+  "tris": 22895,
+  "materials": [
+   "black_paint_gloss",
+   "brass",
+   "engrave",
+   "steel"
+  ],
+  "dims_blender": [
+   0.572,
+   0.024,
+   0.472
+  ]
+ },
+ "staff_thermostat": {
+  "tris": 9864,
+  "materials": [
+   "enamel_white",
+   "steel_dark",
+   "steel",
+   "ink",
+   "engrave"
+  ],
+  "dims_blender": [
+   0.22,
+   0.049,
+   0.32
+  ]
+ },
+ "station_bell": {
+  "tris": 5546,
+  "materials": [
+   "stone_cap",
+   "snow",
+   "paint_green",
+   "brass",
+   "glass",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   1.076,
+   0.72,
+   2.985
+  ]
+ },
+ "vending_machine": {
+  "tris": 13058,
+  "materials": [
+   "paint_black",
+   "paint_red",
+   "panel_lit",
+   "poster_cream",
+   "red_enamel",
+   "poster_ink",
+   "steel",
+   "glass_brown",
+   "glass_green",
+   "glass",
+   "brass",
+   "snow"
+  ],
+  "dims_blender": [
+   0.78,
+   0.656,
+   1.87
+  ]
+ },
+ "substation": {
+  "tris": 14656,
+  "materials": [
+   "stone_cap",
+   "brick",
+   "steel_dark",
+   "snow",
+   "paint_green",
+   "steel",
+   "yellow_enamel",
+   "red_enamel",
+   "poster_ink",
+   "enamel_blue",
+   "insulator"
+  ],
+  "dims_blender": [
+   2.9,
+   6.3,
+   8.95
+  ]
+ },
+ "phone_booth": {
+  "tris": 11510,
+  "materials": [
+   "stone_cap",
+   "paint_green",
+   "glass",
+   "brass",
+   "panel_lit",
+   "poster_ink",
+   "snow",
+   "paint_black",
+   "bakelite",
+   "wood_dark",
+   "poster_c"
+  ],
+  "dims_blender": [
+   1.142,
+   1.142,
+   2.63
+  ]
+ },
+ "poster_pillar": {
+  "tris": 15215,
+  "materials": [
+   "paint_green",
+   "poster_cream",
+   "snow",
+   "poster_b",
+   "poster_ink",
+   "poster_c",
+   "poster_a"
+  ],
+  "dims_blender": [
+   1.34,
+   1.34,
+   3.53
+  ]
+ },
+ "waste_bin": {
+  "tris": 1530,
+  "materials": [
+   "paint_green",
+   "galvanized",
+   "snow"
+  ],
+  "dims_blender": [
+   0.364,
+   0.552,
+   1.185
+  ]
+ },
+ "gate_pier": {
+  "tris": 1438,
+  "materials": [
+   "stone_cap",
+   "brick",
+   "snow",
+   "paint_black",
+   "panel_lit"
+  ],
+  "dims_blender": [
+   0.76,
+   0.76,
+   3.46
+  ]
+ },
+ "iron_gate": {
+  "tris": 15253,
+  "materials": [
+   "large_iron_gate"
+  ],
+  "dims_blender": [
+   3.0,
+   0.099,
+   2.978
+  ]
+ },
+ "power_box": {
+  "tris": 7444,
+  "materials": [
+   "power_box_01"
+  ],
+  "dims_blender": [
+   0.42,
+   0.363,
+   0.459
+  ]
+ },
+ "utility_box_a": {
+  "tris": 4592,
+  "materials": [
+   "utility_box_01",
+   "snow"
+  ],
+  "dims_blender": [
+   0.52,
+   0.432,
+   1.16
+  ]
+ },
+ "utility_box_b": {
+  "tris": 6456,
+  "materials": [
+   "utility_box_02",
+   "snow"
+  ],
+  "dims_blender": [
+   0.92,
+   0.432,
+   1.16
+  ]
+ },
+ "fire_hydrant": {
+  "tris": 3451,
+  "materials": [
+   "fire_hydrant"
+  ],
+  "dims_blender": [
+   0.274,
+   0.318,
+   0.801
+  ]
+ },
+ "covered_car": {
+  "tris": 12592,
+  "materials": [
+   "covered_car.001",
+   "covered_car"
+  ],
+  "dims_blender": [
+   1.797,
+   4.4,
+   1.417
+  ]
+ },
+ "picnic_table": {
+  "tris": 5293,
+  "materials": [
+   "wooden_picnic_table_bottom",
+   "wooden_picnic_table_table",
+   "snow"
+  ],
+  "dims_blender": [
+   2.967,
+   2.2,
+   0.78
+  ]
+ },
+ "statue_horse": {
+  "tris": 13841,
+  "materials": [
+   "stone_cap",
+   "snow",
+   "brass",
+   "poster_ink",
+   "horse_statue_01",
+   "horse_statue_01_base"
+  ],
+  "dims_blender": [
+   1.5,
+   1.778,
+   4.4
+  ]
+ },
+ "statue_gothic": {
+  "tris": 17614,
+  "materials": [
+   "stone_cap",
+   "snow",
+   "brass",
+   "poster_ink",
+   "gothic_statue"
+  ],
+  "dims_blender": [
+   1.611,
+   1.708,
+   3.5
+  ]
+ },
+ "swing_set": {
+  "tris": 1264,
+  "materials": [
+   "play_blue",
+   "snow",
+   "steel",
+   "pine"
+  ],
+  "dims_blender": [
+   3.4,
+   1.576,
+   2.377
+  ]
+ },
+ "slide": {
+  "tris": 1372,
+  "materials": [
+   "play_red",
+   "steel",
+   "pine",
+   "snow",
+   "galvanized"
+  ],
+  "dims_blender": [
+   0.62,
+   3.579,
+   2.716
+  ]
+ },
+ "seesaw": {
+  "tris": 1636,
+  "materials": [
+   "play_yellow",
+   "steel_dark",
+   "pine",
+   "play_red",
+   "snow"
+  ],
+  "dims_blender": [
+   3.014,
+   0.5,
+   1.057
+  ]
+ },
+ "roundabout": {
+  "tris": 1672,
+  "materials": [
+   "steel_dark",
+   "play_yellow",
+   "play_red",
+   "snow"
+  ],
+  "dims_blender": [
+   2.0,
+   2.0,
+   0.975
+  ]
+ },
+ "sandbox": {
+  "tris": 1852,
+  "materials": [
+   "pine",
+   "sand",
+   "snow",
+   "play_red",
+   "play_blue"
+  ],
+  "dims_blender": [
+   2.46,
+   2.46,
+   0.36
+  ]
+ },
+ "climbing_frame": {
+  "tris": 1004,
+  "materials": [
+   "play_blue",
+   "play_red",
+   "steel",
+   "snow"
+  ],
+  "dims_blender": [
+   1.85,
+   1.85,
+   1.845
+  ]
+ },
+ "station_entrance": {
+  "tris": 7467,
+  "materials": [
+   "stone_cap",
+   "snow",
+   "paint_black",
+   "panel_lit",
+   "wood_dark",
+   "glass",
+   "brass",
+   "enamel_blue",
+   "poster_cream",
+   "steel_dark"
+  ],
+  "dims_blender": [
+   2.69,
+   2.416,
+   5.49
+  ]
+ },
+ "fence_chainlink": {
+  "tris": 1094,
+  "materials": [
+   "stone_cap",
+   "galvanized",
+   "chainlink"
+  ],
+  "dims_blender": [
+   2.62,
+   0.511,
+   2.471
+  ]
+ },
+ "gate_chainlink": {
+  "tris": 5356,
+  "materials": [
+   "galvanized",
+   "chainlink",
+   "steel_dark",
+   "brass",
+   "sign_red",
+   "sign_white"
+  ],
+  "dims_blender": [
+   3.303,
+   0.148,
+   2.32
+  ]
+ },
+ "warning_sign_a": {
+  "tris": 4602,
+  "materials": [
+   "sign_red",
+   "sign_white",
+   "galvanized"
+  ],
+  "dims_blender": [
+   0.52,
+   0.009,
+   0.38
+  ]
+ },
+ "warning_sign_b": {
+  "tris": 4857,
+  "materials": [
+   "poster_ink",
+   "sign_yellow",
+   "galvanized"
+  ],
+  "dims_blender": [
+   0.52,
+   0.014,
+   0.38
+  ]
+ },
+ "warning_sign_c": {
+  "tris": 3424,
+  "materials": [
+   "poster_ink",
+   "sign_yellow",
+   "galvanized"
+  ],
+  "dims_blender": [
+   0.52,
+   0.014,
+   0.38
+  ]
+ },
+ "guard_booth": {
+  "tris": 6137,
+  "materials": [
+   "stone_cap",
+   "booth_white",
+   "glass",
+   "paint_green",
+   "paint_black",
+   "snow",
+   "enamel_blue",
+   "poster_cream",
+   "wood_dark",
+   "bakelite",
+   "leather_green",
+   "steel_dark",
+   "panel_lit"
+  ],
+  "dims_blender": [
+   2.5,
+   2.5,
+   2.68
+  ]
+ },
+ "boom_barrier": {
+  "tris": 2504,
+  "materials": [
+   "sign_red",
+   "paint_black",
+   "steel_dark",
+   "sign_white",
+   "lens_red"
+  ],
+  "dims_blender": [
+   4.56,
+   0.63,
+   5.232
+  ]
+ },
+ "car_sedan_hd": {
+  "tris": 50076,
+  "materials": [
+   "car_paint",
+   "car_glass",
+   "chrome",
+   "seam",
+   "tyre",
+   "wheel_paint",
+   "lamp_glass",
+   "tail_glass",
+   "plate_ink",
+   "plate_white",
+   "upholstery",
+   "dash_wood",
+   "bakelite",
+   "car_snow"
+  ],
+  "dims_blender": [
+   1.84,
+   4.48,
+   1.634
+  ]
+ },
+ "car_streamline_hd": {
+  "tris": 42866,
+  "materials": [
+   "car_paint",
+   "car_glass",
+   "chrome",
+   "seam",
+   "tyre",
+   "lamp_glass",
+   "tail_glass",
+   "plate_ink",
+   "plate_white",
+   "upholstery",
+   "dash_wood",
+   "bakelite",
+   "car_snow"
+  ],
+  "dims_blender": [
+   1.799,
+   5.09,
+   1.557
+  ]
+ },
+ "car_small_hd": {
+  "tris": 43220,
+  "materials": [
+   "car_paint",
+   "car_glass",
+   "chrome",
+   "seam",
+   "tyre",
+   "wheel_paint",
+   "lamp_glass",
+   "tail_glass",
+   "plate_ink",
+   "plate_white",
+   "upholstery",
+   "dash_wood",
+   "bakelite",
+   "car_snow"
+  ],
+  "dims_blender": [
+   1.638,
+   3.72,
+   1.536
+  ]
+ },
+ "van_hd": {
+  "tris": 36550,
+  "materials": [
+   "car_paint",
+   "car_glass",
+   "chrome",
+   "seam",
+   "tyre",
+   "wheel_paint",
+   "lamp_glass",
+   "van_letter",
+   "tail_glass",
+   "plate_ink",
+   "plate_white",
+   "upholstery",
+   "dash_wood",
+   "bakelite",
+   "car_snow"
+  ],
+  "dims_blender": [
+   2.0,
+   5.01,
+   2.46
+  ]
+ },
+ "station_hall": {
+  "tris": 97306,
+  "materials": [
+   "floor_checker",
+   "wood_dark",
+   "wainscot",
+   "plaster",
+   "marble",
+   "glass_screen",
+   "brass",
+   "sign_cream",
+   "sign_blue",
+   "steel_dark",
+   "paint_green",
+   "steel",
+   "sign_red_h",
+   "ticket_card",
+   "leather_green",
+   "kraft",
+   "iron",
+   "stone_cap",
+   "stove_tile",
+   "paint_black",
+   "rubber",
+   "plate_ink",
+   "board_black",
+   "potted_plant_02_pot",
+   "potted_plant_02_leaves",
+   "potted_plant_02_pot.001",
+   "potted_plant_02_leaves.001",
+   "detector_grey",
+   "hall_lamp",
+   "tray_grey",
+   "rope_red",
+   "leather_black",
+   "floor_yellow",
+   "board_letter",
+   "wall_clock",
+   "wall_clock_glass",
+   "paper_aged",
+   "paper",
+   "radiator",
+   "metal_trash_can"
+  ],
+  "dims_blender": [
+   15.2,
+   8.299,
+   4.64
+  ]
+ },
+ "station_hall_town": {
+  "tris": 96830,
+  "materials": [
+   "floor_checker",
+   "wood_dark",
+   "wainscot",
+   "plaster",
+   "marble",
+   "glass_screen",
+   "brass",
+   "sign_cream",
+   "sign_blue",
+   "steel_dark",
+   "paint_green",
+   "steel",
+   "sign_red_h",
+   "ticket_card",
+   "leather_green",
+   "kraft",
+   "iron",
+   "stone_cap",
+   "stove_tile",
+   "paint_black",
+   "rubber",
+   "plate_ink",
+   "board_black",
+   "potted_plant_02_pot",
+   "potted_plant_02_leaves",
+   "detector_grey",
+   "hall_lamp",
+   "tray_grey",
+   "rope_red",
+   "leather_black",
+   "floor_yellow",
+   "board_letter",
+   "wall_clock",
+   "wall_clock_glass",
+   "paper_aged",
+   "paper",
+   "radiator",
+   "metal_trash_can"
+  ],
+  "dims_blender": [
+   15.2,
+   9.76,
+   3.54
+  ]
+ },
+ "car_sedan_drive": {
+  "tris": 43324,
+  "materials": [
+   "car_paint",
+   "car_glass",
+   "chrome",
+   "seam",
+   "lamp_lit",
+   "tail_lit",
+   "plate_ink",
+   "plate_white",
+   "tyre",
+   "wheel_paint",
+   "upholstery",
+   "dash_wood",
+   "lamp_glass",
+   "bakelite",
+   "car_snow"
+  ],
+  "dims_blender": [
+   1.84,
+   4.48,
+   1.429
+  ]
+ },
+ "car_streamline_drive": {
+  "tris": 36114,
+  "materials": [
+   "car_paint",
+   "car_glass",
+   "chrome",
+   "seam",
+   "lamp_lit",
+   "tail_lit",
+   "plate_ink",
+   "plate_white",
+   "upholstery",
+   "dash_wood",
+   "lamp_glass",
+   "bakelite",
+   "car_snow"
+  ],
+  "dims_blender": [
+   1.799,
+   5.09,
+   1.328
+  ]
+ },
+ "car_small_drive": {
+  "tris": 36468,
+  "materials": [
+   "car_paint",
+   "car_glass",
+   "chrome",
+   "seam",
+   "lamp_lit",
+   "tail_lit",
+   "plate_ink",
+   "plate_white",
+   "upholstery",
+   "dash_wood",
+   "lamp_glass",
+   "bakelite",
+   "car_snow"
+  ],
+  "dims_blender": [
+   1.638,
+   3.72,
+   1.337
+  ]
+ },
+ "van_drive": {
+  "tris": 29798,
+  "materials": [
+   "car_paint",
+   "car_glass",
+   "chrome",
+   "seam",
+   "lamp_lit",
+   "van_letter",
+   "tail_lit",
+   "plate_ink",
+   "plate_white",
+   "upholstery",
+   "dash_wood",
+   "lamp_glass",
+   "bakelite",
+   "car_snow"
+  ],
+  "dims_blender": [
+   2.0,
+   5.01,
+   2.204
+  ]
+ },
+ "wheel_car": {
+  "tris": 1688,
+  "materials": [
+   "tyre",
+   "wheel_paint",
+   "chrome"
+  ],
+  "dims_blender": [
+   0.172,
+   0.72,
+   0.72
+  ]
+ },
+ "wheel_car_paint": {
+  "tris": 1688,
+  "materials": [
+   "tyre",
+   "car_paint",
+   "chrome"
+  ],
+  "dims_blender": [
+   0.172,
+   0.72,
+   0.72
+  ]
+ },
+ "wheel_small": {
+  "tris": 1688,
+  "materials": [
+   "tyre",
+   "wheel_paint",
+   "chrome"
+  ],
+  "dims_blender": [
+   0.149,
+   0.64,
+   0.64
+  ]
+ },
+ "wheel_van": {
+  "tris": 1688,
+  "materials": [
+   "tyre",
+   "wheel_paint",
+   "chrome"
+  ],
+  "dims_blender": [
+   0.202,
+   0.8,
+   0.8
+  ]
+ }
+}

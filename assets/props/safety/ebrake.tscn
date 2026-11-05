@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/ebrake/ebrake_split.glb" id="1_liwm1"]
+[ext_resource type="Script" path="res://scripts/train/ebrake_lever.gd" id="2_lever"]
+
+[node name="Ebrake" type="Node3D" unique_id=499672577]
+script = ExtResource("2_lever")
+
+[node name="Model" type="Node3D" parent="." unique_id=914934704 instance=ExtResource("1_liwm1")]
+transform = Transform3D(-1.13705125e-08, 0, 0.260127, 0, 0.260127, 0, -0.260127, 0, -1.13705125e-08, 1.1175871e-08, -0.13, 0)

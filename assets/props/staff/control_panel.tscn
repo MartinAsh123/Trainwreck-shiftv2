@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/control_panel/control_panel.glb" id="1_02bpl"]
+
+[node name="ControlPanel" type="Node3D" unique_id=1095648923]
+
+[node name="Model" type="Node3D" parent="." unique_id=1849631364 instance=ExtResource("1_02bpl")]
+transform = Transform3D(-0.30014655, 0, -2.6239645e-08, 0, 0.30014655, 0, 2.6239645e-08, 0, -0.30014655, 0, -0.14999999, -7.450581e-09)

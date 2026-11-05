@@ -1,0 +1,12 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Blender sources (two are ~1 GB, over GitHub's file limit) and their backups
+*.blend
+*.blend1
+# Python caches, vendored deps, logs
+__pycache__/
+*.pyc
+.pydeps/
+*.log

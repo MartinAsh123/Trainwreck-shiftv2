@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://shaders/props/texture_key.gdshader" id="1_key"]
+[ext_resource type="Texture2D" path="res://TripoModels/lamp_ceiling/lamp_ceiling_ceiling_light_3d_model_basecolor.jpg" id="2_tex"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_key")
+shader_parameter/albedo_tex = ExtResource("2_tex")
+shader_parameter/mode = 2
+shader_parameter/glow_energy = 2.5
+shader_parameter/key_min_value = 0.62
+shader_parameter/key_max_saturation = 0.2

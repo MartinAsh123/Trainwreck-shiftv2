@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/switch_panel/switch_panel.glb" id="1_6px2k"]
+
+[node name="SwitchPanel" type="Node3D" unique_id=1852614154]
+
+[node name="Model" type="Node3D" parent="." unique_id=1014683309 instance=ExtResource("1_6px2k")]
+transform = Transform3D(-0.22010748, 0, -1.9242407e-08, 0, 0.22010748, 0, 1.9242407e-08, 0, -0.22010748, 0, -0.054973133, -3.7252903e-09)

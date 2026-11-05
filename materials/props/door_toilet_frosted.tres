@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://shaders/props/texture_key.gdshader" id="1_key"]
+[ext_resource type="Texture2D" path="res://TripoModels/door_saloon/door_saloon_wooden+door+3d+model_basecolor.jpg" id="2_tex"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_key")
+shader_parameter/albedo_tex = ExtResource("2_tex")
+shader_parameter/mode = 1

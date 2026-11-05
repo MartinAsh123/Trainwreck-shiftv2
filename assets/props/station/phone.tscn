@@ -1,0 +1,296 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/phone/phone.glb" id="1_hdhdh"]
+[ext_resource type="FontFile" path="res://assets/fonts/Oswald.ttf" id="2_jys7m"]
+[ext_resource type="Shader" path="res://shaders/props/rotary_wheel.gdshader" id="3_clnks"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ht1nx"]
+albedo_color = Color(0.93, 0.9, 0.8, 1)
+roughness = 0.4
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_o2lbx"]
+top_radius = 0.15
+bottom_radius = 0.15
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tthev"]
+albedo_color = Color(0.02, 0.02, 0.02, 1)
+roughness = 0.3
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_n5tgn"]
+top_radius = 0.156
+bottom_radius = 0.156
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="FontVariation" id="FontVariation_vd4dy"]
+base_font = ExtResource("2_jys7m")
+variation_opentype = {
+2003265652: 500
+}
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mtjr3"]
+render_priority = 0
+shader = ExtResource("3_clnks")
+shader_parameter/wheel_color = null
+shader_parameter/inner_radius = null
+shader_parameter/hole_ring = null
+shader_parameter/hole_radius = null
+
+[sub_resource type="QuadMesh" id="QuadMesh_68pq5"]
+size = Vector2(0.285, 0.285)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n8x7r"]
+albedo_color = Color(0.95, 0.93, 0.86, 1)
+roughness = 0.6
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_3s56p"]
+top_radius = 0.06
+bottom_radius = 0.06
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3vx0"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rebo8"]
+top_radius = 0.0645
+bottom_radius = 0.0645
+height = 0.0008
+radial_segments = 48
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bob81"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="SphereMesh" id="SphereMesh_k8nvq"]
+radius = 0.006
+height = 0.0042
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cmgb8"]
+albedo_color = Color(0.08, 0.06, 0.03, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_1lnk3"]
+size = Vector3(0.0096, 0.00132, 0.003)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_appqp"]
+albedo_color = Color(0.8, 0.62, 0.28, 1)
+metallic = 0.85
+roughness = 0.28
+
+[sub_resource type="BoxMesh" id="BoxMesh_l2vjp"]
+size = Vector3(0.012, 0.05, 0.008)
+
+[node name="Phone" type="Node3D" unique_id=1047772424]
+
+[node name="Face" type="Node3D" parent="." unique_id=494440095]
+transform = Transform3D(-0.26, 0, -2.2729921e-08, 0, 0.26, 0, 2.2729921e-08, 0, -0.26, -5.6097447e-09, -0.10758799, -0.064168)
+
+[node name="Model" type="Node3D" parent="Face" unique_id=153183962 instance=ExtResource("1_hdhdh")]
+
+[node name="Dial" type="Node3D" parent="Face" unique_id=501407567]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.053, 0.2996, 0.174)
+
+[node name="NumberPlate" type="MeshInstance3D" parent="Face/Dial" unique_id=1783107251]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ht1nx")
+mesh = SubResource("CylinderMesh_o2lbx")
+
+[node name="PlateRim" type="MeshInstance3D" parent="Face/Dial" unique_id=311781092]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, -0.0004)
+material_override = SubResource("StandardMaterial3D_tthev")
+mesh = SubResource("CylinderMesh_n5tgn")
+
+[node name="Label3D" type="Label3D" parent="Face/Dial" unique_id=181010825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.09833718, 0.056775, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "1"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D2" type="Label3D" parent="Face/Dial" unique_id=1542379157]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.056775, 0.09833718, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "2"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D3" type="Label3D" parent="Face/Dial" unique_id=1476433745]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.952703e-18, 0.11355, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "3"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D4" type="Label3D" parent="Face/Dial" unique_id=1442264989]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.056775, 0.09833718, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "4"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D5" type="Label3D" parent="Face/Dial" unique_id=41570972]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.09833718, 0.056775, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "5"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D6" type="Label3D" parent="Face/Dial" unique_id=1819245038]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.11355, 1.3905406e-17, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "6"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D7" type="Label3D" parent="Face/Dial" unique_id=1592333824]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.09833718, -0.056775, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "7"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D8" type="Label3D" parent="Face/Dial" unique_id=1882261423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.056775, -0.09833718, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "8"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D9" type="Label3D" parent="Face/Dial" unique_id=1985578372]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0858107e-17, -0.11355, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "9"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D10" type="Label3D" parent="Face/Dial" unique_id=95816539]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.056775, -0.09833718, 0.0008)
+pixel_size = 0.000154321
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.05, 0.04, 0.04, 1)
+text = "0"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="FingerWheel" type="MeshInstance3D" parent="Face/Dial" unique_id=604088301]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0035)
+material_override = SubResource("ShaderMaterial_mtjr3")
+mesh = SubResource("QuadMesh_68pq5")
+
+[node name="CentreCard" type="MeshInstance3D" parent="Face/Dial" unique_id=709975920]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0038)
+material_override = SubResource("StandardMaterial3D_n8x7r")
+mesh = SubResource("CylinderMesh_3s56p")
+
+[node name="CardRing" type="MeshInstance3D" parent="Face/Dial" unique_id=19035961]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0.0036)
+material_override = SubResource("StandardMaterial3D_r3vx0")
+mesh = SubResource("CylinderMesh_rebo8")
+
+[node name="Label3D11" type="Label3D" parent="Face/Dial" unique_id=579848023]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.017, 0.0042)
+pixel_size = 9.1628084e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.1, 0.08, 0.06, 1)
+text = "G.C.R."
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Label3D12" type="Label3D" parent="Face/Dial" unique_id=1058913803]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.017, 0.0042)
+pixel_size = 7.233796e-05
+shaded = true
+double_sided = false
+texture_filter = 5
+render_priority = 2
+modulate = Color(0.45, 0.08, 0.06, 1)
+text = "STAFF  EXT. 24"
+font = SubResource("FontVariation_vd4dy")
+font_size = 128
+outline_size = 0
+
+[node name="Screw" type="MeshInstance3D" parent="Face/Dial" unique_id=1188623445]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0042)
+material_override = SubResource("StandardMaterial3D_bob81")
+mesh = SubResource("SphereMesh_k8nvq")
+
+[node name="Slot" type="MeshInstance3D" parent="Face/Dial/Screw" unique_id=1926386258]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0012)
+material_override = SubResource("StandardMaterial3D_cmgb8")
+mesh = SubResource("BoxMesh_1lnk3")
+
+[node name="FingerStop" type="MeshInstance3D" parent="Face/Dial" unique_id=1908041963]
+transform = Transform3D(-0.17272812, 0.98496956, 0, -0.98496956, -0.17272812, 0, 0, 0, 1, 0.120810546, -0.06975, 0.007)
+material_override = SubResource("StandardMaterial3D_appqp")
+mesh = SubResource("BoxMesh_l2vjp")

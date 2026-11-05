@@ -1,0 +1,22 @@
+{
+ "bench": 2472,
+ "birch": 2286,
+ "fence_lineside": 174,
+ "fir_c": 4220,
+ "fir_c_lod": 452,
+ "lamp_post": 1274,
+ "pole": 2098,
+ "rock_a": 1187,
+ "rock_b": 1117,
+ "rock_c": 26613,
+ "scots_pine": 6380,
+ "scots_pine_lod": 90,
+ "sleeper": 212,
+ "spruce_a": 5282,
+ "spruce_a_lod": 452,
+ "spruce_a_lod2": 168,
+ "spruce_b": 6020,
+ "spruce_b_lod": 452,
+ "spruce_b_lod2": 168,
+ "stump": 3283
+}

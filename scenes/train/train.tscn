@@ -1,0 +1,53 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/train/train.gd" id="1_train"]
+[ext_resource type="PackedScene" path="res://scenes/train/passenger_car.tscn" id="1_car"]
+[ext_resource type="Script" path="res://scripts/train/car_gangway.gd" id="3_gangway"]
+[ext_resource type="PackedScene" path="res://scenes/train/sleeper_car.tscn" id="4_sleeper"]
+[ext_resource type="PackedScene" path="res://scenes/train/crew_car.tscn" id="9_crew"]
+[ext_resource type="PackedScene" path="res://scenes/train/mail_van.tscn" id="10_van"]
+[ext_resource type="PackedScene" path="res://scenes/train/locomotive.tscn" id="11_loco"]
+
+[node name="Train" type="Node3D"]
+script = ExtResource("1_train")
+
+[node name="PassengerCar" parent="." instance=ExtResource("1_car")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4, 0)
+
+[node name="SleeperCar1" parent="." instance=ExtResource("4_sleeper")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.54, 1.4, 0)
+
+[node name="Gangway_1_2" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.77, 1.4, 0)
+script = ExtResource("3_gangway")
+
+[node name="Gangway_2_3" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.77, 1.4, 0)
+script = ExtResource("3_gangway")
+
+[node name="PassengerCar3" parent="." instance=ExtResource("1_car")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.54, 1.4, 0)
+car_number = "No 1938"
+car_index = 3
+
+[node name="Gangway_3_4" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.31, 1.4, 0)
+script = ExtResource("3_gangway")
+
+[node name="CrewCar4" parent="." instance=ExtResource("9_crew")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.08, 1.4, 0)
+
+[node name="Gangway_4_5" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.85, 1.4, 0)
+script = ExtResource("3_gangway")
+
+[node name="MailVan5" parent="." instance=ExtResource("10_van")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -52.62, 1.4, 0)
+
+[node name="Gangway_5_6" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -61.39, 1.4, 0)
+script = ExtResource("3_gangway")
+
+[node name="Locomotive6" parent="." instance=ExtResource("11_loco")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -61.76, 1.4, 0)
+

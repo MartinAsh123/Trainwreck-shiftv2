@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/monitor/monitor.glb" id="1_xijse"]
+
+[node name="Monitor" type="Node3D" unique_id=732768844]
+
+[node name="Model" type="Node3D" parent="." unique_id=1709330621 instance=ExtResource("1_xijse")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, -0.229, 0)

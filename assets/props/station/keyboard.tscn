@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/keyboard/keyboard.glb" id="1_ld817"]
+
+[node name="Keyboard" type="Node3D" unique_id=1985076814]
+
+[node name="Model" type="Node3D" parent="." unique_id=1090311137 instance=ExtResource("1_ld817")]
+transform = Transform3D(-0.41928995, 0, -3.6655493e-08, 0, 0.41928995, 0, 3.6655493e-08, 0, -0.41928995, 0.0024608225, 0, -0.009989426)

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://TripoModels/speaker/speaker.glb" id="1_sw5ir"]
+
+[node name="Speaker" type="Node3D" unique_id=1987610326]
+
+[node name="Model" type="Node3D" parent="." unique_id=1140096167 instance=ExtResource("1_sw5ir")]
+transform = Transform3D(-0.20009771, 0, -1.7493097e-08, 0, 0.20009771, 0, 1.7493097e-08, 0, -0.20009771, 0, -0.1, -9.313226e-09)

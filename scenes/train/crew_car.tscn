@@ -1,0 +1,42 @@
+[gd_scene format=4]
+
+[ext_resource type="Script" path="res://scripts/train/crew_car.gd" id="1_car"]
+[ext_resource type="PackedScene" path="res://assets/props/lamps/lamp_dome.tscn" id="5_lamp"]
+[ext_resource type="PackedScene" path="res://assets/props/doors/door_saloon.tscn" id="6_inner"]
+[ext_resource type="PackedScene" path="res://assets/props/doors/door_gangway_porthole.tscn" id="7_end"]
+[ext_resource type="PackedScene" path="res://assets/props/doors/door_toilet.tscn" id="8_wc"]
+[ext_resource type="PackedScene" path="res://assets/props/toilet/sink_washstand.tscn" id="9_sink"]
+[ext_resource type="PackedScene" path="res://assets/props/bogies/bogie_spoked.tscn" id="10_bogie"]
+[ext_resource type="PackedScene" path="res://assets/props/toilet/mirror_wood.tscn" id="11_mirror"]
+[ext_resource type="PackedScene" path="res://assets/props/safety/extinguisher.tscn" id="12_ext"]
+[ext_resource type="PackedScene" path="res://assets/props/toilet/toilet_wooden_seat.tscn" id="13_toilet"]
+[ext_resource type="PackedScene" path="res://assets/props/doors/door_exit.tscn" id="14_exit"]
+[ext_resource type="PackedScene" path="res://assets/props/staff/gauge_panel.tscn" id="20_gauges"]
+[ext_resource type="PackedScene" path="res://assets/props/station/phone.tscn" id="21_phone"]
+[ext_resource type="PackedScene" path="res://assets/props/toilet/roll_holder.tscn" id="22_roll"]
+[ext_resource type="PackedScene" path="res://assets/props/safety/bin.tscn" id="23_bin"]
+[ext_resource type="PackedScene" path="res://assets/props/toilet/pedal_bin.tscn" id="24_pedal"]
+[ext_resource type="PackedScene" path="res://assets/props/lamps/speaker.tscn" id="25_speaker"]
+
+[node name="CrewCar" type="Node3D"]
+script = ExtResource("1_car")
+car_index = 4
+car_number = "No 1939"
+class_numeral = ""
+inner_door_width = 0.66
+lamp_scene = ExtResource("5_lamp")
+side_door_scene = ExtResource("14_exit")
+inner_door_scene = ExtResource("6_inner")
+end_door_scene = ExtResource("7_end")
+toilet_door_scene = ExtResource("8_wc")
+toilet_scene = ExtResource("13_toilet")
+sink_scene = ExtResource("9_sink")
+mirror_scene = ExtResource("11_mirror")
+extinguisher_scene = ExtResource("12_ext")
+bogie_scene = ExtResource("10_bogie")
+staff_gauges_scene = ExtResource("20_gauges")
+phone_scene = ExtResource("21_phone")
+roll_holder_scene = ExtResource("22_roll")
+bin_scene = ExtResource("23_bin")
+pedal_bin_scene = ExtResource("24_pedal")
+speaker_scene = ExtResource("25_speaker")

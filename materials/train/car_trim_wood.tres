@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://shaders/train/car_interior.gdshader" id="1_int"]
+[ext_resource type="Texture2D" path="res://assets/models/hd_props/textures/detail_wood.jpg" id="2_dw"]
+[ext_resource type="Texture2D" path="res://assets/models/hd_props/textures/detail_floor.jpg" id="3_df"]
+[ext_resource type="Texture2D" path="res://assets/models/hd_props/textures/detail_paper.jpg" id="4_dp"]
+
+[resource]
+shader = ExtResource("1_int")
+shader_parameter/force_wood = true
+shader_parameter/use_detail = true
+shader_parameter/wood_detail = ExtResource("2_dw")
+shader_parameter/floor_detail = ExtResource("3_df")
+shader_parameter/paper_detail = ExtResource("4_dp")

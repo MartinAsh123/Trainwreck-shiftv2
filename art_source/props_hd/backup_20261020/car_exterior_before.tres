@@ -1,0 +1,33 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cj5yftkurijgh"]
+
+[ext_resource type="Shader" uid="uid://be7ed7m2skj31" path="res://shaders/train/car_exterior.gdshader" id="1_ext"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ext")
+shader_parameter/paint_color = Color(0.122, 0.231, 0.153, 1)
+shader_parameter/roof_color = Color(0.141, 0.259, 0.18, 1)
+shader_parameter/skirt_color = Color(0.169, 0.169, 0.149, 1)
+shader_parameter/lining_color = Color(0.243, 0.369, 0.282, 1)
+shader_parameter/roof_start_y = 2.0799999999999996
+shader_parameter/skirt_top_y = 0.04999999999999999
+shader_parameter/lining_y1 = 1.6800000000000002
+shader_parameter/lining_y2 = 0.74
+shader_parameter/lining_width = 0.012
+shader_parameter/waist_y = 0.67
+shader_parameter/panel_pitch = 1.2
+shader_parameter/seam_strength = 0.45
+shader_parameter/eave_y = 1.9999999999999998
+shader_parameter/roof_rx = 1.4949999999999999
+shader_parameter/roof_ry = 0.45
+shader_parameter/window_xs = PackedFloat32Array(-4.84, -2.52, -0.2, 2.12, 4.44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+shader_parameter/window_count = 5
+shader_parameter/window_half_w = 0.51
+shader_parameter/window_bottom_y = 0.8
+shader_parameter/door_x = -7.200000000000001
+shader_parameter/door_half_w = 0.4
+shader_parameter/fade_amount = 0.35
+shader_parameter/rivet_pitch = 0.09
+shader_parameter/paint_roughness = 0.32
+shader_parameter/grime_amount = 0.35
+shader_parameter/soot_amount = 0.35
