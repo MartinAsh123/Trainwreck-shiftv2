@@ -2,8 +2,7 @@
 .godot/
 /android/
 
-# Blender sources (two are ~1 GB, over GitHub's file limit) and their backups
-*.blend
+# Blender backups (the .blend sources go through LFS)
 *.blend1
 # Python caches, vendored deps, logs
 __pycache__/
